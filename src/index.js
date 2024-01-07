@@ -1,17 +1,33 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+// ... React modules
+import ReactDOM from "react-dom/client";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+// ... Components
+import App from "@src/App";
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// ... Assets
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+
+import "@assets/styles/bg_shapes.css";
+import "@assets/styles/utils.css";
+
+import "@assets/styles/theme.css";
+import "@assets/styles/brand.css";
+import "@assets/styles/__root.css";
+import "@assets/styles/app_layout.css";
+
+import "@pages/home_page/sections/hero_section.css";
+import "@pages/home_page/sections/about_section.css";
+import "@pages/home_page/sections/portfolio_section.css";
+import "@pages/home_page/sections/portfolio_section.css";
+import "@pages/home_page/sections/contact_section.css";
+
+import "@pages/dashboard_page/sections/dashboard_section.css";
+
+import "@layouts/navigation.css";
+import "@components/cards/cards.css";
+import "@components/banners/banners.css";
+import "@components/tabs/tabs.css";
+
+const root = ReactDOM.createRoot(document.querySelector("#root"));
+root.render(<App />);

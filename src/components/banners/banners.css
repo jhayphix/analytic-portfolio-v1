@@ -1,0 +1,25 @@
+.page_banner_container {
+  height: 233px;
+  border-top: 0.2px dotted var(--bg_accent_1);
+  border-bottom: 0.01px dotted var(--bg_accent_1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page_banner_container .page_name {
+  color: var(--text_secondary_1);
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+
+/* Project Banner */
+.project_banner_container {
+  width: 100%;
+  height: 540px;
+  padding-top: 15px;
+}
+.project_banner_container .project_img {
+  height: 100%;
+  width: 100%;
+}

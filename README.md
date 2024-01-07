@@ -2,69 +2,50 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Analytic Portfolio Website
 
-In the project directory, you can run:
+Welcome to my Analytic Portfolio! This website serves as a showcase for my data analytics skills using various tools and technologies, including Excel, Tableau, SQL, Python, and Pandas.
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Introduction](#introduction)
+- [Skills](#skills)
+- [Projects](#projects)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Contributing](#contributing)
+- [License](#license)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Introduction
 
-### `npm test`
+In a rapidly evolving data-driven landscape, this portfolio demonstrates my expertise in leveraging data analytics to uncover insights, solve complex problems, and drive informed decision-making. Explore the various projects and analyses presented here to gain an understanding of my capabilities in the field.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Skills
 
-### `npm run build`
+- **Excel:** Proficient in data analysis, visualization, and reporting using Excel.
+- **Tableau:** Experienced in creating interactive and visually appealing dashboards.
+- **SQL:** Skilled in querying and manipulating data using SQL.
+- **Python:** Utilizing Python for data analysis and visualization.
+- **Pandas:** Expertise in data manipulation and analysis with the Pandas library.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Projects
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Project 1: [Project Name]
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Description: Brief overview of the project.
+- Tools Used: Excel, Tableau
+- [Link to Project]
 
-### `npm run eject`
+### Project 2: [Project Name]
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Description: Brief overview of the project.
+- Tools Used: SQL, Python, Pandas
+- [Link to Project]
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Technologies Used
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **HTML, CSS, JavaScript:** Front-end development for the website.
+- **Bootstrap 5:** Enhancing the design and responsiveness of the site.
+- **GitHub Pages:** Hosting the portfolio website.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Getting Started

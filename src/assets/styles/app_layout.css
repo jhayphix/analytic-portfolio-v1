@@ -1,0 +1,132 @@
+* {
+  text-decoration: none;
+  /* user-select: none; */
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+a,
+Link {
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--bg_primary_1);
+  scroll-behavior: smooth;
+}
+
+#app_layout_container {
+  background-color: var(--bg_primary_1) !important;
+  color: var(--text_secondary_1) !important;
+  min-height: 100vh;
+}
+
+/* Back to top */
+
+.back_to_top {
+  position: fixed;
+  /* visibility: hidden; */
+  /* opacity: 0; */
+  opacity: 1;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background-color: var(--bg_accent_1);
+  color: var(--text_secondary_1);
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  border: 3px solid transparent;
+  transition: all 0.4s;
+}
+
+.back_to_top .back_to_top_icon {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+
+.back_to_top:hover {
+  background-color: var(--bg_primary_5);
+  border: 3px solid var(--bg_accent_1);
+}
+
+.back_to_top:hover .back_to_top_icon {
+  color: var(--text_accent_1);
+}
+
+/* Chat on whatsapp */
+.chat_on_whatsapp {
+  background-color: var(--bg_accent_1);
+  border: 4px solid transparent;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+
+  position: fixed;
+  right: 15px;
+  bottom: 120px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  transition: all 0.4s;
+  z-index: 996;
+}
+.chat_on_whatsapp:hover {
+  background-color: var(--bg_primary_5);
+  border-color: var(--whatsapp_color);
+}
+.chat_on_whatsapp .chat_on_whatsapp_icon {
+  font-size: 35px;
+  color: var(--text_unchanged_secondary);
+  animation: chatOnWhatsapp 5s infinite;
+}
+.chat_on_whatsapp:hover .chat_on_whatsapp_icon {
+  color: var(--whatsapp_color);
+  transform: rotate(-650deg);
+  transition: all 0.5s ease;
+}
+
+@-webkit-keyframes chatOnWhatsapp {
+  0% {
+    transform: rotate(0deg);
+  }
+  40% {
+    transform: rotate(360deg);
+  }
+  70% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes chatOnWhatsapp {
+  0% {
+    transform: rotate(0deg);
+  }
+  40% {
+    transform: rotate(360deg);
+  }
+  70% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

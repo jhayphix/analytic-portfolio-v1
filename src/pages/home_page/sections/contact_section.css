@@ -1,0 +1,36 @@
+/* 
+|------------------------------------------------
+| Contact section
+|------------------------------------------------
+*/
+#contact_section form label {
+  padding-left: 1.5rem;
+}
+
+#contact_section form input,
+#contact_section form select {
+  background-color: var(--bg_primary_6);
+  color: var(--text_secondary_1);
+  border: none;
+}
+#contact_section form textarea {
+  background-color: var(--bg_primary_6);
+  color: var(--text_secondary_1);
+  border: none;
+}
+
+#contact_section .card-text .text_container {
+  margin: 1rem 0;
+}
+
+
+.contact_social_icons_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+.contact_social_icons_container .social_link {
+  font-size: 1.5rem;
+}

@@ -1,0 +1,19 @@
+/* 
+  |------------------------------------------------
+  | About section
+  |------------------------------------------------
+*/
+
+#about_section {
+  min-height: 100vh;
+}
+
+#about_section #profile_info {
+  padding: 1rem;
+  background: var(--bg_about_card_1);
+  box-shadow: var(--shadow_about_card);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
