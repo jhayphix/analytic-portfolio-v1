@@ -34,7 +34,7 @@ const ProjectCard = ({ project }) => {
       >
         <div className="work-img">
           <img
-            src={project?.img ? project?.img : ExcelImg}
+            src={project?.project_img ? project?.project_img : ExcelImg}
             alt={project.name}
             className="img-fluid"
           />

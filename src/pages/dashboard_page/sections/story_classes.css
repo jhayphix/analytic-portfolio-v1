@@ -1,0 +1,34 @@
+.__story_container p {
+  font-size: 24px;
+  padding-bottom: 20px;
+  font-weight: 100;
+}
+
+/* Typo */
+.__header {
+  font-size: 45px !important;
+  font-weight: bold !important;
+}
+.__text,
+.__text_lg {
+  font-weight: 100 !important;
+}
+.__text_lg {
+  font-size: 30px !important;
+}
+
+/* style */
+.__bold {
+  font-weight: bold !important;
+}
+.__underline {
+  text-decoration-line: underline;
+}
+
+/* Color */
+.__highlight {
+  color: var(--text_accent_1) !important;
+}
+.__color_accent {
+  color: var(--text_accent_1) !important;
+}

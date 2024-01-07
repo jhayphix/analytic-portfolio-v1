@@ -3,9 +3,10 @@
 // ... Contexts
 import ProjectContextProvider from "@contexts/ProjectContextProvider";
 import ProjectInfoContextProvider from "@contexts/ProjectInfoContextProvider";
-import ExcelProjectContextProvider from "@contexts/projects/ExcelProjectContextProvider";
 import ThemeContextProvider from "@contexts/ThemeContextProvider";
 import NavigationContextProvider from "@contexts/NavigationContextProvider";
+
+import ProjectProvider from "@contexts/projects/ProjectProvider.jsx";
 
 // ... Components
 
@@ -33,11 +34,11 @@ const AppContextProvider = ({ children }) => {
       <ThemeContextProvider>
         <NavigationContextProvider>
           <ProjectContextProvider>
-            <ExcelProjectContextProvider>
+            <ProjectProvider>
               <ProjectInfoContextProvider>
                 {children}
               </ProjectInfoContextProvider>
-            </ExcelProjectContextProvider>
+            </ProjectProvider>
           </ProjectContextProvider>
         </NavigationContextProvider>
       </ThemeContextProvider>

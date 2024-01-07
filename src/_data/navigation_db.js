@@ -4,7 +4,7 @@
   |----------------------------------------
 */
 
-const base_route = "analytic";
+const base_route = "analytic-portfolio";
 export const navigation_db = {
   base_route: base_route,
   nav_links: [

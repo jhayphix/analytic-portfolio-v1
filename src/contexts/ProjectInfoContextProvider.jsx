@@ -3,6 +3,9 @@ import { createContext, useState, useContext } from "react";
 
 // ... Context
 import { ExcelProjectContext } from "./projects/ExcelProjectContextProvider";
+import { TableauProjectContext } from "./projects/TableauProjectContextProvider";
+import { SqlProjectContext } from "./projects/SqlProjectContextProvider";
+import { PythonProjectContext } from "./projects/PythonProjectContextProvider";
 
 // ... Components
 
@@ -29,14 +32,18 @@ const ProjectInfoContextProvider = ({ children }) => {
   |----------------------------------------
   */
   const { excel_projects } = useContext(ExcelProjectContext);
+  const { tableau_projects } = useContext(TableauProjectContext);
+  const { sql_projects } = useContext(SqlProjectContext);
+  const { python_projects } = useContext(PythonProjectContext);
+
   const [project_params, setProjectParams] = useState("");
   const project_cat = project_params?.cat;
   const project_id = parseInt(project_params?.id);
 
   const excel_projects_collection = excel_projects;
-  const python_projects_collection = [];
-  const sql_projects_collection = [];
-  const tableau_projects_collection = [];
+  const tableau_projects_collection = tableau_projects;
+  const sql_projects_collection = sql_projects;
+  const python_projects_collection = python_projects;
 
   /*
   |----------------------------------------

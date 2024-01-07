@@ -23,6 +23,7 @@ import "@pages/home_page/sections/portfolio_section.css";
 import "@pages/home_page/sections/contact_section.css";
 
 import "@pages/dashboard_page/sections/dashboard_section.css";
+import "@pages/dashboard_page/sections/story_classes.css";
 
 import "@layouts/navigation.css";
 import "@components/cards/cards.css";

@@ -1,21 +1,15 @@
 // Imports
-import BikeSaleImg from "@assets/images/projects/excel/excel_bike_sale_img.png";
 import TableauCovidImg from "@assets/images/projects/tableau/tableau_covid_img.png";
-/*
-type -> [Header, text, img]
-font -> [bold]
-class -> [highlight]
-
-*/
+import BikeSaleImg from "@assets/images/projects/excel/excel_bike_sale_img.png";
 
 // Excel data base
-const excel_project_1 = {
-  id: 1,
-  name: "Project 3",
-  project_img: BikeSaleImg,
-  category: "excel",
-  type: "Personal",
-  dashboard_img: TableauCovidImg,
+const tableau_project_1 = {
+  id: 2,
+  name: "Covid 19",
+  project_img: TableauCovidImg,
+  category: "tableau",
+  type: "Client",
+  dashboard_img: BikeSaleImg,
 
   story: [
     {
@@ -108,4 +102,4 @@ const excel_project_1 = {
   ],
 };
 
-export default excel_project_1;
+export default tableau_project_1;
