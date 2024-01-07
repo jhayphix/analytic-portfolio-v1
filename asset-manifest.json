@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/analytic-portfolio/static/css/main.01f08e46.css",
+    "main.js": "/analytic-portfolio/static/js/main.0761f23d.js",
+    "static/media/excel_bike_sale_img.png": "/analytic-portfolio/static/media/excel_bike_sale_img.7dab26df22b514386cfa.png",
+    "static/media/excel_project_image_1.png": "/analytic-portfolio/static/media/excel_project_image_1.7dab26df22b514386cfa.png",
+    "static/media/tableau_covid_img.png": "/analytic-portfolio/static/media/tableau_covid_img.02e96f656d69ac42361e.png",
+    "static/media/python_web_scraping_img.png": "/analytic-portfolio/static/media/python_web_scraping_img.87c0a1eab60332cc104c.png",
+    "static/media/sql_airbnb_img.png": "/analytic-portfolio/static/media/sql_airbnb_img.0fba84715a9b7fc239e4.png",
+    "static/media/shape_left_1.svg": "/analytic-portfolio/static/media/shape_left_1.61eb129f3393cb6d2842.svg",
+    "static/media/shape_right_1.svg": "/analytic-portfolio/static/media/shape_right_1.80a23e121db5c1edf5d1.svg",
+    "static/media/shape_left_4.svg": "/analytic-portfolio/static/media/shape_left_4.4d4dd2a79e5cba44aac6.svg",
+    "static/media/shape_right_2.svg": "/analytic-portfolio/static/media/shape_right_2.069979acd044abd5e73d.svg",
+    "static/media/shape_left_2.svg": "/analytic-portfolio/static/media/shape_left_2.88d8be14b08e86391299.svg",
+    "static/media/shape_right_3.svg": "/analytic-portfolio/static/media/shape_right_3.a80f1dcb97be1acb4d22.svg",
+    "static/media/shape_mid_2.svg": "/analytic-portfolio/static/media/shape_mid_2.4f97b241a65ea6336c72.svg",
+    "static/media/shape_mid_1.svg": "/analytic-portfolio/static/media/shape_mid_1.054b18e5b04292bf7848.svg",
+    "static/media/shape_left_3.svg": "/analytic-portfolio/static/media/shape_left_3.5b626c8719eb39f37b39.svg",
+    "static/media/avatar_dark.png": "/analytic-portfolio/static/media/avatar_dark.0ad6f07bd8587f91e7aa.png",
+    "static/media/award_icon.svg": "/analytic-portfolio/static/media/award_icon.175843571048489be1030076942833e4.svg",
+    "static/media/hand_hold_feather.svg": "/analytic-portfolio/static/media/hand_hold_feather.b58250a60265bf2f0e1cab1c6d3543e6.svg",
+    "static/media/calender_icon.svg": "/analytic-portfolio/static/media/calender_icon.35a51b489de6f9e09a99a3bd568391f7.svg",
+    "static/media/service_icon_2.svg": "/analytic-portfolio/static/media/service_icon_2.d74270f5e7538eea57991ccad0d36b50.svg",
+    "static/media/checklist_icon.svg": "/analytic-portfolio/static/media/checklist_icon.6496477c06bd57ca74e7c3ef548d95e8.svg",
+    "static/media/shape_cube.svg": "/analytic-portfolio/static/media/shape_cube.5941a353500aaccc674c.svg",
+    "static/media/service_icon_6.svg": "/analytic-portfolio/static/media/service_icon_6.c2717016e648f7515f60a74eff2ada06.svg",
+    "static/media/service_icon_4.svg": "/analytic-portfolio/static/media/service_icon_4.cc9587a859e96ddf4ef5dc662ae4a585.svg",
+    "static/media/service_icon_1.svg": "/analytic-portfolio/static/media/service_icon_1.b284adf97f286c9c49981b9298a2e1e5.svg",
+    "static/media/shape_cross.svg": "/analytic-portfolio/static/media/shape_cross.2cda514d360979523966.svg",
+    "static/media/service_icon_3.svg": "/analytic-portfolio/static/media/service_icon_3.04c98d2abd57d0b6b874602dbdc5e182.svg",
+    "static/media/checkmark_icon.svg": "/analytic-portfolio/static/media/checkmark_icon.8a436541ee92f58bd1f505dc22b8e633.svg",
+    "index.html": "/analytic-portfolio/index.html",
+    "static/media/service_icon_5.svg": "/analytic-portfolio/static/media/service_icon_5.70a90f26af97e2f7754294bbcc5e696c.svg",
+    "main.01f08e46.css.map": "/analytic-portfolio/static/css/main.01f08e46.css.map",
+    "main.0761f23d.js.map": "/analytic-portfolio/static/js/main.0761f23d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01f08e46.css",
+    "static/js/main.0761f23d.js"
+  ]
+}
