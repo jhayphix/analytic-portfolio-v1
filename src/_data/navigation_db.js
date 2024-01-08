@@ -37,26 +37,26 @@ export const navigation_db = {
 
   home: {
     name: "Home",
-    path: `${base_route}/`,
+    path: `/${base_route}/`,
   },
   about: {
     name: "About",
-    path: `${base_route}/about`,
+    path: `/${base_route}/about`,
   },
   portfolio: {
     name: "Portfolio",
-    path: `${base_route}/portfolio`,
+    path: `/${base_route}/portfolio`,
   },
   dashboard: {
     name: "Project",
-    path: `${base_route}/project/:cat/:id`,
+    path: `/${base_route}/project/:cat/:id`,
   },
   service: {
     name: "Services",
-    path: `${base_route}/services`,
+    path: `/${base_route}/services`,
   },
   contact: {
     name: "Contact",
-    path: `${base_route}/contact`,
+    path: `/${base_route}/contact`,
   },
 };

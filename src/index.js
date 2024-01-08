@@ -29,6 +29,7 @@ import "@layouts/navigation.css";
 import "@components/cards/cards.css";
 import "@components/banners/banners.css";
 import "@components/tabs/tabs.css";
+import "@components/breadcrumb/breadcrumb.css";
 
 const root = ReactDOM.createRoot(document.querySelector("#root"));
 root.render(<App />);

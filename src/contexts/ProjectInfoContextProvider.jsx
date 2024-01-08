@@ -18,6 +18,7 @@ export const ProjectInfoContext = createContext({
   project_story: [],
   project_collection: [],
   project_story_nav: [],
+  project_cat: "",
 });
 
 /*
@@ -92,6 +93,7 @@ const ProjectInfoContextProvider = ({ children }) => {
     project_story,
     project_collection,
     project_story_nav,
+    project_cat,
   };
 
   /*

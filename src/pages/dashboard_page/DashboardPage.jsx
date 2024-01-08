@@ -6,11 +6,14 @@ import { useParams } from "react-router-dom";
 import { ProjectInfoContext } from "@contexts/ProjectInfoContextProvider";
 
 // ... Components
+import PortfolioBreadCrumb from "@components/breadcrumb/PortfolioBreadCrumb";
+import DashboardStoryTab from "@components/tabs/DashboardStoryTab";
 import PageBannerSection from "@components/banners/PageBannerSection";
 import ProjectBanner from "@components/banners/ProjectBanner";
-import DashboardStoryTab from "@components/tabs/DashboardStoryTab";
+
 import DashboardSection from "@pages/dashboard_page/sections/DashboardSection";
 import StorySection from "@pages/dashboard_page/sections/StorySection";
+
 // ... Assets
 
 /*
@@ -46,6 +49,10 @@ const DashboardPage = () => {
   const project_img = project?.project_img;
   const project_name = project?.name;
   const project_dashboard_img = project?.dashboard_img;
+  const project_category_original = project?.category;
+  const project_category =
+    project_category_original?.charAt(0).toUpperCase() +
+    project_category_original?.slice(1);
 
   /*
   |----------------------------------------
@@ -54,9 +61,14 @@ const DashboardPage = () => {
   */
   return (
     <div className="container-lg" style={{ paddingBottom: "60px" }}>
+      <PortfolioBreadCrumb
+        project_category={project_category}
+        project_name={project_name}
+      />
       <PageBannerSection pageName="Dashboard" />
       <ProjectBanner projectImg={project_img} projectName={project_name} />
       <DashboardStoryTab category={category} setCategory={setCategory} />
+
       {category === "dashboard" ? (
         <DashboardSection
           dashboard_img={project_dashboard_img}
