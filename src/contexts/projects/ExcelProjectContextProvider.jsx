@@ -6,8 +6,7 @@ import { createContext } from "react";
 // ... Components
 
 // ... Assets
-import excel_project_1 from "@data/projects/excel/project_1.js";
-import excel_project_2 from "@data/projects/excel/project_2.js";
+import ex_project_1_bike_sales from "@data/projects/excel/ex_project_1_bike_sales.js";
 
 export const ExcelProjectContext = createContext({
   excel_projects: [],
@@ -24,7 +23,7 @@ const ExcelProjectContextProvider = ({ children }) => {
   | Project variables
   |----------------------------------------
   */
-  const excel_projects = [excel_project_1, excel_project_2];
+  const excel_projects = [ex_project_1_bike_sales];
   /*
   |----------------------------------------
   | Context

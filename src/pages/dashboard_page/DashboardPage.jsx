@@ -65,7 +65,7 @@ const DashboardPage = () => {
         project_category={project_category}
         project_name={project_name}
       />
-      <PageBannerSection pageName="Dashboard" />
+      <PageBannerSection pageName={project_name} />
       <ProjectBanner projectImg={project_img} projectName={project_name} />
       <DashboardStoryTab category={category} setCategory={setCategory} />
 

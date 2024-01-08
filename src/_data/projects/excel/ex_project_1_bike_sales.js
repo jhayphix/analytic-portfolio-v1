@@ -1,15 +1,22 @@
 // Imports
-import TableauCovidImg from "@assets/images/projects/tableau/tableau_covid_img.png";
-import BikeSaleImg from "@assets/images/projects/excel/excel_bike_sale_img.png";
+import BikeSalesImg from "@assets/images/projects/excel/ex_bike_sales_img.png";
+/*
+
+*/
 
 // Excel data base
-const tableau_project_2 = {
-  id: 6,
-  name: "Covid 19",
-  project_img: TableauCovidImg,
-  category: "tableau",
-  type: "Client",
-  dashboard_img: BikeSaleImg,
+const ex_project_1_bike_sales = {
+  id: 1,
+  name: "Bike sales",
+  project_img: BikeSalesImg,
+  category: "excel",
+  type: "Personal",
+  // dashboard_img: TableauCovidImg,
+  height: "600",
+  width: "100%",
+  url: "https://onedrive.live.com/view?id=82C5119070277DD2!319&resid=82C5119070277DD2!319&authkey=!AJuUvQdG2rtVBec&wdo=2&cid=82c5119070277dd2",
+  iframeSrc:
+    "https://onedrive.live.com/embed?resid=82C5119070277DD2%21319&authkey=%21AJuUvQdG2rtVBec&em=2&AllowTyping=True&ActiveCell='Dashboard'!A1&wdHideGridlines=True&wdHideHeaders=True&wdInConfigurator=True&wdInConfigurator=True",
 
   story: [
     {
@@ -102,4 +109,4 @@ const tableau_project_2 = {
   ],
 };
 
-export default tableau_project_2;
+export default ex_project_1_bike_sales;
