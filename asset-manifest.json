@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/analytic-portfolio/static/css/main.040a30ea.css",
-    "main.js": "/analytic-portfolio/static/js/main.800a6b9c.js",
+    "main.js": "/analytic-portfolio/static/js/main.81db4342.js",
     "static/media/excel_bike_sale_img.png": "/analytic-portfolio/static/media/excel_bike_sale_img.7dab26df22b514386cfa.png",
     "static/media/excel_project_image_1.png": "/analytic-portfolio/static/media/excel_project_image_1.7dab26df22b514386cfa.png",
     "static/media/tableau_covid_img.png": "/analytic-portfolio/static/media/tableau_covid_img.02e96f656d69ac42361e.png",
+    "static/media/ex_bike_sales_img.png": "/analytic-portfolio/static/media/ex_bike_sales_img.8c04c77ea96bd9622177.png",
     "static/media/python_web_scraping_img.png": "/analytic-portfolio/static/media/python_web_scraping_img.87c0a1eab60332cc104c.png",
     "static/media/sql_airbnb_img.png": "/analytic-portfolio/static/media/sql_airbnb_img.0fba84715a9b7fc239e4.png",
     "static/media/shape_left_1.svg": "/analytic-portfolio/static/media/shape_left_1.61eb129f3393cb6d2842.svg",
@@ -32,10 +33,10 @@
     "index.html": "/analytic-portfolio/index.html",
     "static/media/service_icon_5.svg": "/analytic-portfolio/static/media/service_icon_5.70a90f26af97e2f7754294bbcc5e696c.svg",
     "main.040a30ea.css.map": "/analytic-portfolio/static/css/main.040a30ea.css.map",
-    "main.800a6b9c.js.map": "/analytic-portfolio/static/js/main.800a6b9c.js.map"
+    "main.81db4342.js.map": "/analytic-portfolio/static/js/main.81db4342.js.map"
   },
   "entrypoints": [
     "static/css/main.040a30ea.css",
-    "static/js/main.800a6b9c.js"
+    "static/js/main.81db4342.js"
   ]
 }
