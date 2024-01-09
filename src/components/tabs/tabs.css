@@ -3,9 +3,8 @@
   | Nav tab
   |----------------------------------------
 */
-
 .nav_tab {
-  border-radius: 20px;
+  border-radius: 15px;
 }
 
 .nav_tab .tab_item {
@@ -20,7 +19,7 @@
 .nav_tab .tab_item.tab_active {
   background: var(--bg_accent_1);
   color: var(--text_unchanged_secondary);
-  border-radius: 20px;
+  border-radius: 16px;
 }
 
 @media only screen and (max-width: 1021px) {

@@ -12,10 +12,11 @@ const ex_project_1_bike_sales = {
   category: "excel",
   type: "Personal",
   // dashboard_img: TableauCovidImg,
-  height: "600",
-  width: "95%",
-  url: "https://onedrive.live.com/view?id=82C5119070277DD2!319&resid=82C5119070277DD2!319&authkey=!AJuUvQdG2rtVBec&wdo=2&cid=82c5119070277dd2",
-  iframeSrc:
+  iframe_height: "600",
+  iframe_width: "96%",
+  iframe_url:
+    "https://onedrive.live.com/view?id=82C5119070277DD2!319&resid=82C5119070277DD2!319&authkey=!AJuUvQdG2rtVBec&wdo=2&cid=82c5119070277dd2",
+  iframe_src:
     "https://onedrive.live.com/embed?resid=82C5119070277DD2%21319&authkey=%21AJuUvQdG2rtVBec&em=2&AllowTyping=True&ActiveCell='Dashboard'!A1&wdHideGridlines=True&wdHideHeaders=True&wdInConfigurator=True&wdInConfigurator=True",
 
   story: [

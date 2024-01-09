@@ -124,11 +124,8 @@ const Navigation = () => {
                 return (
                   <li className="nav-item nav_item" key={index}>
                     <NavLink
-                      className={({ isActive }) =>
-                        isActive
-                          ? "nav-link nav_link text_secondary_1 active_nav_link"
-                          : "nav-link nav_link text_secondary_1"
-                      }
+                      className={`nav-link nav_link py-1 ${({ isActive }) =>
+                        isActive ? " active_nav_link" : ""}`}
                       to={path}
                       end={end}
                     >

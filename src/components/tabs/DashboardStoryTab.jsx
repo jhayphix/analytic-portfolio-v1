@@ -29,7 +29,7 @@ const DashboardStoryTab = ({ setCategory }) => {
   |----------------------------------------
   */
   return (
-    <div style={{ marginTop: "90px", marginBottom: "90px" }}>
+    <div className="mb-lg-4 mb-3">
       <NavTab
         activeTab={activeTab}
         tabs={tabs}

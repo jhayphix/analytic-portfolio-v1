@@ -7,3 +7,14 @@
 .dashboard_section .dashboard_img {
   height: 100%;
 }
+
+.view_workbook_link {
+  font-size: 18px;
+  color: var(--text_secondary_1);
+  border-bottom: 1px solid var(--text_secondary_1);
+}
+
+.view_workbook_link:hover {
+  color: var(--text_accent_1);
+  border-bottom-color: var(--text_accent_1);
+}

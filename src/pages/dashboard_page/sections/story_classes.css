@@ -1,5 +1,5 @@
 :root {
-  --h1_fs: 40px;
+  --h1_fs: 35px;
   --h1_fs_sm: 30px;
   --h2_fs: calc(var(--h1_fs) - 5px);
   --h2_fs_sm: calc(var(--h1_fs_sm) - 2px);

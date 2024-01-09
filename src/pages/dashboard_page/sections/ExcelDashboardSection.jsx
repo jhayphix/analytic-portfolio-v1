@@ -17,10 +17,10 @@ import EmbedIframe from "@components/embed/EmbedIframe";
 const ExcelDashboardSection = () => {
   const { filtered_project } = useContext(ProjectInfoContext);
 
-  const iframeSrc = filtered_project?.iframeSrc;
-  const height = filtered_project?.height;
-  const width = filtered_project?.width;
-  const url = filtered_project?.url;
+  const iframe_src = filtered_project?.iframe_src;
+  const iframe_height = filtered_project?.iframe_height;
+  const iframe_width = filtered_project?.iframe_width;
+  const url = filtered_project?.iframe_url;
 
   /*
   |----------------------------------------
@@ -29,19 +29,17 @@ const ExcelDashboardSection = () => {
   */
   return (
     <>
-      <a
-        href={url}
-        target="_blank"
-        rel="noreferrer"
-        style={{
-          fontSize: "20px",
-          textDecoration: "underline",
-        }}
-      >
-        {" "}
-        View full size workbook{" "}
-      </a>
-      <EmbedIframe iframeSrc={iframeSrc} height={height} width={width} />
+      <div className="mb-lg-4 mb-3">
+        <a
+          href={url}
+          className="view_workbook_link"
+          target="_blank"
+          rel="noreferrer"
+        >
+          View full-size workbook
+        </a>
+      </div>
+      <EmbedIframe iframe_src={iframe_src} iframe_height={iframe_height} iframe_width={iframe_width} />
     </>
   );
 };

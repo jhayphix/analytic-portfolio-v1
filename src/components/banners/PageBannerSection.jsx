@@ -13,8 +13,8 @@
 */
 const PageBannerSection = ({ pageName }) => {
   return (
-    <div className="page_banner_container container-lg">
-      <h1 className="page_name display-2">{pageName?.toUpperCase()}</h1>
+    <div className="page_banner_container pt-4 pb-4 container-lg">
+      <h1 className="page_name display-6">{pageName?.toUpperCase()}</h1>
     </div>
   );
 };

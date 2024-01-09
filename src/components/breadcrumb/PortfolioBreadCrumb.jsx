@@ -29,8 +29,9 @@ const PortfolioBreadCrumb = ({ project_category, project_name }) => {
       <nav
         style={{ "--bs-breadcrumb-divider": "none" }}
         aria-label="breadcrumb"
+        className="mt-lg-2 mt-1"
       >
-        <ol className="breadcrumb">
+        <ol className="breadcrumb mb-0">
           <li className="breadcrumb-item">
             <Link to={home_path}>Home</Link>
           </li>

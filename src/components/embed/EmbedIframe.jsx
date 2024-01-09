@@ -11,7 +11,7 @@
 |----------------------------------------------------------------------------
 |----------------------------------------------------------------------------
 */
-const EmbedIframe = ({ iframeSrc, height, width }) => {
+const EmbedIframe = ({ iframe_src, iframe_height, iframe_width }) => {
   /*
   |----------------------------------------
   | return
@@ -19,14 +19,14 @@ const EmbedIframe = ({ iframeSrc, height, width }) => {
   */
 
   return (
-    <div className="mt-5">
+    <div>
       <iframe
         title="Excel embed"
-        width={width}
-        height={height}
+        width={iframe_width}
+        height={iframe_height}
         // frameBorder="0"
         // scrolling="no"
-        srcDoc={`<iframe width=${width} height=${height} frameborder="0" scrolling="no" src="${iframeSrc}"></iframe>`}
+        srcDoc={`<iframe width=${iframe_width} height=${iframe_height} frameborder="0" scrolling="no" src="${iframe_src}"></iframe>`}
       ></iframe>
     </div>
   );
@@ -34,8 +34,8 @@ const EmbedIframe = ({ iframeSrc, height, width }) => {
 
 EmbedIframe.defaultProps = [
   {
-    height: "600",
-    width: "95%",
+    iframe_height: "600",
+    iframe_width: "96%",
   },
 ];
 
