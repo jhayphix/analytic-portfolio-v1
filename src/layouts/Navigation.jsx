@@ -64,11 +64,11 @@ const Navigation = () => {
   return (
     <nav
       id="navbar"
-      className={`navbar navbar-expand-${nav_expands_at} sticky-top ${
+      className={`navbar py-sm-2 py-0 navbar-expand-${nav_expands_at} sticky-top ${
         nav_scrolled ? "navbar_scrolled bg_shape_grp_1" : ""
       }`}
     >
-      <div className="container-lg">
+      <div className="navbar_container container-lg">
         {/* Section 1: Logo and Brand Name */}
         <Link className="navbar-brand fw-bold text_secondary_1" to={home_path}>
           <span className="brand_name_highlight"> &#123; Jhay</span>Ph

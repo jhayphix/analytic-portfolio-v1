@@ -41,6 +41,9 @@
 @media only screen and (max-width: 572px) {
   #navbar {
     height: 3rem;
+  }
+
+  #navbar .navbar_container {
     position: relative;
   }
 
