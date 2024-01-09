@@ -13,7 +13,7 @@ const ex_project_1_bike_sales = {
   type: "Personal",
   // dashboard_img: TableauCovidImg,
   height: "600",
-  width: "100%",
+  width: "95%",
   url: "https://onedrive.live.com/view?id=82C5119070277DD2!319&resid=82C5119070277DD2!319&authkey=!AJuUvQdG2rtVBec&wdo=2&cid=82c5119070277dd2",
   iframeSrc:
     "https://onedrive.live.com/embed?resid=82C5119070277DD2%21319&authkey=%21AJuUvQdG2rtVBec&em=2&AllowTyping=True&ActiveCell='Dashboard'!A1&wdHideGridlines=True&wdHideHeaders=True&wdInConfigurator=True&wdInConfigurator=True",
@@ -23,57 +23,57 @@ const ex_project_1_bike_sales = {
       story_nav: "Introduction",
       story_info: [
         {
-          text: "Introduction: Unlocking Insights Through Data Analytics",
+          text: "Exploring the Dynamics of Bike Purchases",
           style: ["__header __color_accent"],
         },
         {
-          text: "In a rapidly evolving business landscape, data has become a priceless asset, offering a wealth of information waiting to be tapped. The power of data analytics lies in its ability to transform raw data into actionable insights, empowering businesses to make informed decisions, optimize processes, and drive growth. ",
+          text: "In the bustling realm of consumer choices, the decision to purchase a bicycle is influenced by a myriad of factors that extend beyond mere personal preference. In a quest to decode the intricate tapestry of consumer behavior, we delve into a comprehensive dataset encompassing diverse demographic attributes. The dataset, replete with information on marital status, gender, income, children, education, occupation, commute distance, region, and age, presents an invaluable opportunity to discern patterns and draw insights into the factors that sway an individual towards acquiring a bike.",
           style: ["__text"],
         },
         {
-          text: "Welcome to our data analytics project, where we embark on a journey of discovery and analysis. In this endeavor, we harness the potential of data to uncover hidden patterns, trends, and opportunities. By leveraging state-of-the-art techniques and tools, we aim to answer critical questions, solve complex problems, and gain a competitive edge in the modern data-driven world.",
+          text: "This project embarks on an analytical journey to uncover the nuanced relationships between these demographic variables and the pivotal decision of purchasing a bike. By scrutinizing the dataset with a keen eye for correlations, we aim to discern the factors that play a significant role in influencing a person's choice to embrace the world of biking.",
           style: ["__text"],
         },
         {
-          text: "This project represents a commitment to excellence in data analysis. We'll explore various aspects of data, from data collection and cleaning to advanced predictive modeling and visualization. Through rigorous analysis and interpretation, we'll bring clarity to the chaos of information, making it easier for you to chart a course toward success. ",
+          text: "As we navigate through the sea of data, our goal is to not only identify key trends but also to shed light on the underlying motivations that drive individuals to invest in a bicycle. Whether it's the allure of an active lifestyle, the practical considerations of commuting, or the influence of socioeconomic factors, our analysis aims to unravel the intricate web of connections that characterize the decision-making process leading to a bike purchase.",
           style: ["__text"],
         },
         {
-          text: "Together, we will navigate the vast data landscape, transforming numbers and statistics into actionable strategies. Our goal is to provide you with valuable insights that inform your decision-making process, driving your business forward. Join us as we explore the power of data analytics and embrace a future where data is not just a resource but a catalyst for growth and innovation.",
-          style: ["__text"],
-        },
-        {
-          text: "Let's begin the journey of unlocking insights through data analytics.",
+          text: "Join us on this exploratory voyage as we sift through the data, decode the subtleties, and illuminate the factors that shape the path towards embracing two-wheeled adventures. The insights gleaned from this analysis promise not only to inform marketing strategies but also to contribute to a deeper understanding of the intricate dance between demographics and consumer choices in the realm of cycling.",
           style: ["__text"],
         },
       ],
     },
     {
-      story_nav: "Key notes",
+      story_nav: "Data Exploration",
       story_info: [
         {
-          text: "Keynotes Unlocking Insights Through Data Analytics",
-          style: ["__header __color_accent"],
+          text: "Overview of the Dataset",
+          style: ["__header_2 __color_accent"],
         },
         {
-          text: "In a rapidly evolving business landscape, data has become a priceless asset, offering a wealth of information waiting to be tapped. The power of data analytics lies in its ability to transform raw data into actionable insights, empowering businesses to make informed decisions, optimize processes, and drive growth. ",
+          text: "The dataset comprises a total of 1026 records, each representing a unique individual. The key variables and their types are as follows:",
           style: ["__text"],
         },
         {
-          text: "Welcome to our data analytics project, where we embark on a journey of discovery and analysis. In this endeavor, we harness the potential of data to uncover hidden patterns, trends, and opportunities. By leveraging state-of-the-art techniques and tools, we aim to answer critical questions, solve complex problems, and gain a competitive edge in the modern data-driven world.",
+          text: [
+            "Marital Status: Categorical",
+            "Gender: Categorical",
+            "Income: Continuous",
+            "Children: Categorical",
+            "Education: Categorical",
+            "Occupation: Categorical",
+            "Commute Distance: Categorical",
+            "Region: Categorical",
+            "Age: Continuous",
+            "Purchased Bike: Categorical (Target Variable)",
+          ],
           style: ["__text"],
+          type: "list",
         },
         {
-          text: "This project represents a commitment to excellence in data analysis. We'll explore various aspects of data, from data collection and cleaning to advanced predictive modeling and visualization. Through rigorous analysis and interpretation, we'll bring clarity to the chaos of information, making it easier for you to chart a course toward success. ",
-          style: ["__text"],
-        },
-        {
-          text: "Together, we will navigate the vast data landscape, transforming numbers and statistics into actionable strategies. Our goal is to provide you with valuable insights that inform your decision-making process, driving your business forward. Join us as we explore the power of data analytics and embrace a future where data is not just a resource but a catalyst for growth and innovation.",
-          style: ["__text"],
-        },
-        {
-          text: "Let's begin the journey of unlocking insights through data analytics.",
-          style: ["__text"],
+          text: "Initial Observations",
+          style: ["__header_2 __color_accent"],
         },
       ],
     },

@@ -5,6 +5,7 @@ import { useState } from "react";
 
 // ... Components
 import ProjectStoryTab from "@components/tabs/ProjectStoryTab";
+import StoryList from "@components/story/StoryList";
 
 // ... Assets
 
@@ -31,8 +32,10 @@ const StorySection = ({ project_story, story_tab }) => {
       <ProjectStoryTab story_tab={story_tab} setCategory={setCategory} />
       <div className="__story_container">
         {story_info?.map((story, index) => {
-          return (
-            <p className={story?.style} key={index}>
+          return story?.type === "list" ? (
+            <StoryList list={story?.text} key={index} />
+          ) : (
+            <p className={`text ${story?.style}`} key={index}>
               {story?.text}
             </p>
           );

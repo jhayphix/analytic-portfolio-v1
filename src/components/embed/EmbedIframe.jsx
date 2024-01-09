@@ -33,7 +33,7 @@ const EmbedIframe = ({ iframeSrc, height, width }) => {
 EmbedIframe.defaultProps = [
   {
     height: "600",
-    width: "100%",
+    width: "95%",
   },
 ];
 
