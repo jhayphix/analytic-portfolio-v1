@@ -28,6 +28,7 @@ const Navigation = () => {
   const { nav_links, home } = useContext(NavigationContext);
   const { switchTheme, theme } = useContext(ThemeContext);
   const [nav_scrolled, setNavScrolled] = useState(false);
+  const [link_clicked, setLinkClicked] = useState(false);
 
   /*
   |----------------------------------------
@@ -53,6 +54,7 @@ const Navigation = () => {
       setNavScrolled(false);
     }
   };
+
   /*
   |----------------------------------------
   | Return 
@@ -109,6 +111,9 @@ const Navigation = () => {
         <div className="navbar-nav-section">
           <button
             className="navbar-toggler text_secondary_1"
+            onClick={() => {
+              setLinkClicked(false);
+            }}
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -118,7 +123,10 @@ const Navigation = () => {
           >
             <FaBars className="text_secondary_1" />
           </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <div
+            className={`collapse navbar-collapse ${link_clicked ? "hide" : ""}`}
+            id="navbarSupportedContent"
+          >
             <ul className="navbar-nav navbar_nav">
               {nav_links_db?.map(({ name, path, end }, index) => {
                 return (
@@ -128,6 +136,9 @@ const Navigation = () => {
                         isActive ? " active_nav_link" : ""}`}
                       to={path}
                       end={end}
+                      onClick={() => {
+                        setLinkClicked(true);
+                      }}
                     >
                       {name}
                     </NavLink>

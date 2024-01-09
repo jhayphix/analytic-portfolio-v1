@@ -53,6 +53,14 @@
     right: 5px;
     width: 17rem;
   }
+
+  #navbar .navbar-collapse.hide {
+    display: none;
+  }
+  #navbar .navbar-collapse.show {
+    display: initial;
+  }
+
   #navbar .navbar-collapse .navbar-nav {
     padding: 20px 10px;
   }
