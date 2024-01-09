@@ -1,43 +1,155 @@
-.__story_container .text {
-  font-size: 24px;
-  padding-bottom: 20px;
-  font-weight: 200;
+:root {
+  --h1_fs: 40px;
+  --h1_fs_sm: 30px;
+  --h2_fs: calc(var(--h1_fs) - 5px);
+  --h2_fs_sm: calc(var(--h1_fs_sm) - 2px);
+  --h3_fs: calc(var(--h2_fs) - 9px);
+  --h3_fs_sm: calc(var(--h2_fs_sm) - 3px);
+  --header_fw: 400;
+  --header_mb: 0.5rem;
+
+  --text_fs: 22px;
+  --text_fs_sm: 20px;
+  --text_lg_fs: 30px;
+  --text_lg_fs_sm: 24px;
+  --text_fw: lighter;
+  --text_mb: 1.5rem;
+
+  --para: 2rem;
+  --para_sm: 1rem;
+  --para_2: calc(var(--para) + 2rem);
+  --para_2_sm: calc(var(--para_sm) + 0.5rem);
+  --para_3: calc(var(--para_2) + 1);
+  --para_3_sm: calc(var(--para_2_sm) + 0.5rem);
 }
 
-/* Typo */
+/*
+  |----------------------------------------
+  | Typo
+  |----------------------------------------
+*/
+/* Headers */
+.__header,
+.__header_1,
+.__header_2,
+.__header_3 {
+  font-weight: var(--header_fw);
+  margin-bottom: var(--header_mb);
+}
+
 .__header,
 .__header_1 {
-  font-size: 45px !important;
-  font-weight: 300 !important;
+  font-size: var(--h1_fs);
 }
 .__header_2 {
-  font-size: 40px !important;
-  font-weight: 300 !important;
+  font-size: var(--h2_fs);
 }
 .__header_3 {
-  font-size: 30px !important;
-  font-weight: 300 !important;
-}
-.__text,
-.__text_lg {
-  font-weight: 100 !important;
-}
-.__text_lg {
-  font-size: 30px !important;
+  font-size: var(--h3_fs);
 }
 
-/* style */
-.__bold {
-  font-weight: 600 !important;
+/* Text */
+.__text,
+.__text_lg {
+  font-weight: var(--text_fw);
+  margin-bottom: var(--text_mb);
+}
+
+.__text {
+  font-size: var(--text_fs);
+}
+
+.__text_lg {
+  font-size: var(--text_lg_fs);
+}
+
+/* ------------------------------------------------------------------ */
+
+/*
+  |----------------------------------------
+  | Lookup Styles
+  |----------------------------------------
+*/
+/* Para */
+.__para {
+  margin-left: var(--para);
+}
+.__para_2 {
+  margin-left: var(--para_2);
+}
+.__para_3 {
+  margin-left: var(--para_3);
+}
+
+/* Margin */
+.__mb_0 {
+  margin-bottom: 0 !important;
+}
+.__fw_bold {
+  font-weight: 600;
+}
+.__fw_light {
+  font-weight: 100;
 }
 .__underline {
   text-decoration-line: underline;
 }
+/* ------------------------------------------------------------------ */
 
-/* Color */
+/*
+  |----------------------------------------
+  | List style
+  |----------------------------------------
+*/
+.__list_style_circle {
+  list-style-type: circle;
+}
+
+/*
+  |----------------------------------------
+  | Colors
+  |----------------------------------------
+*/
 .__highlight {
   color: var(--text_accent_1) !important;
 }
 .__color_accent {
   color: var(--text_accent_1) !important;
+}
+
+/*
+  |----------------------------------------
+  | Media Queries
+  |----------------------------------------
+*/
+
+@media only screen and (max-width: 800px) {
+  .__header,
+  .__header_1 {
+    font-size: var(--h1_fs_sm);
+  }
+  .__header_2 {
+    font-size: var(--h2_fs_sm);
+  }
+  .__header_3 {
+    font-size: var(--h3_fs_sm);
+  }
+
+  .__text {
+    font-size: var(--text_fs_sm);
+  }
+
+  .__text_lg {
+    font-size: var(--text_lg_fs_sm);
+  }
+
+  .__para {
+    margin-left: var(--para_sm);
+  }
+  .__para_2 {
+    margin-left: var(--para_2_sm);
+  }
+  .__para_3 {
+    margin-left: var(--para_3_sm);
+  }
 }

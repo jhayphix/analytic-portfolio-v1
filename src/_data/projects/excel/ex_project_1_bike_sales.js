@@ -48,7 +48,7 @@ const ex_project_1_bike_sales = {
       story_nav: "Data Exploration",
       story_info: [
         {
-          text: "Overview of the Dataset",
+          text: "2.1 Overview of the Dataset",
           style: ["__header_2 __color_accent"],
         },
         {
@@ -68,12 +68,44 @@ const ex_project_1_bike_sales = {
             "Age: Continuous",
             "Purchased Bike: Categorical (Target Variable)",
           ],
-          style: ["__text"],
+          style: ["__text __mb_0 __para __list_style_circle"],
           type: "list",
         },
         {
-          text: "Initial Observations",
+          text: "2.2 Initial Observations",
           style: ["__header_2 __color_accent"],
+        },
+        {
+          text: "Income Disparities by Gender:",
+          style: ["__header_3 __para"],
+        },
+        {
+          text: "Initial observations reveal a notable difference in average income between males and females. On average, males exhibit a higher income, with an average income of $60,124, compared to females with an average income of $55,774. This insight prompts further investigation into potential factors contributing to this gender-based income gap.",
+          style: ["__text __para_2"],
+        },
+        {
+          text: "Commute Distance and Bike Purchases:",
+          style: ["__header_3 __para"],
+        },
+        {
+          text: "There is a discernible trend indicating that as commute distance increases, the likelihood of individuals purchasing a bike decreases. This suggests a potential inverse relationship between commute distance and the propensity to buy a bike. Further analysis is warranted to explore the dynamics of this relationship and its implications.",
+          style: ["__text __para_2"],
+        },
+        {
+          text: "Age-Related Patterns:",
+          style: ["__header_3 __para"],
+        },
+        {
+          text: "Analysis of age groups highlights distinct preferences for bike purchases. The middle-age demographic emerges as the primary group inclined towards acquiring bikes, followed by the older age group. Conversely, adolescents appear to exhibit lower interest in bike purchases. Understanding the preferences of different age segments can inform targeted marketing strategies and product positioning.",
+          style: ["__text __para_2"],
+        },
+        {
+          text: "2.3 Data Quality and Preprocessing",
+          style: ["__header_2 __color_accent"],
+        },
+        {
+          text: "As part of the data exploration process, steps were taken to ensure data quality and accuracy. Any missing or inconsistent values were addressed through appropriate data cleaning procedures.",
+          style: ["__text __para_2"],
         },
       ],
     },
@@ -82,7 +114,7 @@ const ex_project_1_bike_sales = {
       story_info: [
         {
           text: "Insight: Unlocking Insights Through Data Analytics",
-          style: ["__header __color_accent"],
+          style: ["__header_1 __color_accent"],
         },
         {
           text: "In a rapidly evolving business landscape, data has become a priceless asset, offering a wealth of information waiting to be tapped. The power of data analytics lies in its ability to transform raw data into actionable insights, empowering businesses to make informed decisions, optimize processes, and drive growth. ",

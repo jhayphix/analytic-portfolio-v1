@@ -33,9 +33,9 @@ const StorySection = ({ project_story, story_tab }) => {
       <div className="__story_container">
         {story_info?.map((story, index) => {
           return story?.type === "list" ? (
-            <StoryList list={story?.text} key={index} />
+            <StoryList style={story?.style} list={story?.text} key={index} />
           ) : (
-            <p className={`text ${story?.style}`} key={index}>
+            <p className={`${story?.style}`} key={index}>
               {story?.text}
             </p>
           );

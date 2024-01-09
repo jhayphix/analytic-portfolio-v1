@@ -11,7 +11,7 @@
   |----------------------------------------------------------------------------
   |----------------------------------------------------------------------------
 */
-const StoryList = ({ list }) => {
+const StoryList = ({ style, list }) => {
   /*
   |----------------------------------------
   | Return
@@ -21,7 +21,8 @@ const StoryList = ({ list }) => {
     <ul>
       {list?.map((list_item, index) => {
         return (
-          <li key={index} className="mb-2 lead">
+          // <li key={index} className="mb-2 lead">
+          <li key={index} className={style}>
             {list_item}
           </li>
         );

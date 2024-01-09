@@ -47,7 +47,7 @@ const Navigation = () => {
     //   document.body.scrollTop > 50 ||
     //   document.documentElement.scrollTop > 50
     // ) {
-    if (window.scrollY > 70) {
+    if (window.scrollY > 10) {
       setNavScrolled(true);
     } else {
       setNavScrolled(false);

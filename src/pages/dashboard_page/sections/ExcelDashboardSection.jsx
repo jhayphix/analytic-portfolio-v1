@@ -35,7 +35,6 @@ const ExcelDashboardSection = () => {
         rel="noreferrer"
         style={{
           fontSize: "20px",
-          marginBottom: "10px",
           textDecoration: "underline",
         }}
       >

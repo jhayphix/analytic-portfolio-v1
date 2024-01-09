@@ -16,10 +16,16 @@
 /* Project Banner */
 .project_banner_container {
   width: 100%;
-  height: 540px;
   padding-top: 15px;
 }
 .project_banner_container .project_img {
-  height: 100%;
   width: 100%;
+  height: 540px;
+}
+
+@media only screen and (max-width: 800px) {
+  .project_img {
+    object-fit: contain;
+    height: auto !important;
+  }
 }
