@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/analytic-portfolio/static/css/main.7ca8f010.css",
-    "main.js": "/analytic-portfolio/static/js/main.107796de.js",
+    "main.css": "/analytic-portfolio/static/css/main.c32d3ba3.css",
+    "main.js": "/analytic-portfolio/static/js/main.adeaac25.js",
     "static/media/excel_bike_sale_img.png": "/analytic-portfolio/static/media/excel_bike_sale_img.7dab26df22b514386cfa.png",
     "static/media/excel_project_image_1.png": "/analytic-portfolio/static/media/excel_project_image_1.7dab26df22b514386cfa.png",
     "static/media/tableau_covid_img.png": "/analytic-portfolio/static/media/tableau_covid_img.02e96f656d69ac42361e.png",
@@ -32,11 +32,11 @@
     "static/media/checkmark_icon.svg": "/analytic-portfolio/static/media/checkmark_icon.8a436541ee92f58bd1f505dc22b8e633.svg",
     "index.html": "/analytic-portfolio/index.html",
     "static/media/service_icon_5.svg": "/analytic-portfolio/static/media/service_icon_5.70a90f26af97e2f7754294bbcc5e696c.svg",
-    "main.7ca8f010.css.map": "/analytic-portfolio/static/css/main.7ca8f010.css.map",
-    "main.107796de.js.map": "/analytic-portfolio/static/js/main.107796de.js.map"
+    "main.c32d3ba3.css.map": "/analytic-portfolio/static/css/main.c32d3ba3.css.map",
+    "main.adeaac25.js.map": "/analytic-portfolio/static/js/main.adeaac25.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ca8f010.css",
-    "static/js/main.107796de.js"
+    "static/css/main.c32d3ba3.css",
+    "static/js/main.adeaac25.js"
   ]
 }
