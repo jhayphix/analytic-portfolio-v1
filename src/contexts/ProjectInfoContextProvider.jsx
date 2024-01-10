@@ -83,6 +83,21 @@ const ProjectInfoContextProvider = ({ children }) => {
 
   /*
   |----------------------------------------
+  | Extract
+  |----------------------------------------
+  */
+  const project = filtered_project;
+  const project_img = project?.project_img;
+  const project_name = project?.name;
+  const project_dashboard_img = project?.dashboard_img;
+
+  const project_category_original = project?.category;
+  const project_category =
+    project_category_original?.charAt(0).toUpperCase() +
+    project_category_original?.slice(1);
+
+  /*
+  |----------------------------------------
   | Context
   |----------------------------------------
   */
@@ -94,6 +109,11 @@ const ProjectInfoContextProvider = ({ children }) => {
     project_collection,
     project_story_nav,
     project_cat,
+
+    project_img,
+    project_name,
+    project_dashboard_img,
+    project_category,
   };
 
   /*

@@ -1,6 +1,4 @@
 .page_banner_container {
-  /* height: 233px; */
-
   border-top: 0.2px dotted var(--bg_accent_1);
   border-bottom: 0.2px dotted var(--bg_accent_1);
   display: flex;
@@ -29,6 +27,7 @@
 @media only screen and (max-width: 900px) {
   .project_img {
     object-fit: contain;
+    width: 90vw !important;
     height: auto !important;
   }
 }

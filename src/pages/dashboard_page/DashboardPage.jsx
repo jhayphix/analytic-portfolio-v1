@@ -30,29 +30,17 @@ const DashboardPage = () => {
   const params = useParams();
   const {
     setProjectParams,
-    filtered_project,
     project_story,
     project_story_nav,
+    project_img,
+    project_name,
+    project_category,
   } = useContext(ProjectInfoContext);
   const [category, setCategory] = useState("dashboard");
 
   useEffect(() => {
     setProjectParams(params);
   }, [params, setProjectParams]);
-
-  /*
-  |----------------------------------------
-  | Assign
-  |----------------------------------------
-  */
-  const project = filtered_project;
-  const project_img = project?.project_img;
-  const project_name = project?.name;
-  const project_dashboard_img = project?.dashboard_img;
-  const project_category_original = project?.category;
-  const project_category =
-    project_category_original?.charAt(0).toUpperCase() +
-    project_category_original?.slice(1);
 
   /*
   |----------------------------------------
@@ -70,10 +58,7 @@ const DashboardPage = () => {
       <DashboardStoryTab category={category} setCategory={setCategory} />
 
       {category === "dashboard" ? (
-        <DashboardSection
-          dashboard_img={project_dashboard_img}
-          project_name={project_name}
-        />
+        <DashboardSection />
       ) : (
         <StorySection
           project_story={project_story}

@@ -5,8 +5,6 @@ import { useContext } from "react";
 import { ProjectInfoContext } from "@contexts/ProjectInfoContextProvider";
 
 // ... Components
-import ExcelDashboardSection from "@pages/dashboard_page/sections/ExcelDashboardSection.jsx";
-import DefaultDashboardSection from "@pages/dashboard_page/sections/DefaultDashboardSection.jsx";
 
 // ... Assets
 
@@ -15,19 +13,26 @@ import DefaultDashboardSection from "@pages/dashboard_page/sections/DefaultDashb
   |----------------------------------------------------------------------------
   |----------------------------------------------------------------------------
 */
-const DashboardSection = () => {
-  const { project_cat } = useContext(ProjectInfoContext);
-  const project_category = project_cat;
+const DefaultDashboardSection = () => {
+  const { project_dashboard_img, project_name } =
+    useContext(ProjectInfoContext);
+
   /*
   |----------------------------------------
   | Return
   |----------------------------------------
   */
-  if (project_category === "excel") {
-    return <ExcelDashboardSection />;
-  } else {
-    return <DefaultDashboardSection />;
-  }
+  return (
+    <>
+      <div className="dashboard_section">
+        <img
+          className="dashboard_img"
+          src={project_dashboard_img}
+          alt={project_name}
+        />
+      </div>
+    </>
+  );
 };
 
-export default DashboardSection;
+export default DefaultDashboardSection;

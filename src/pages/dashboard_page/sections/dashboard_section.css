@@ -1,13 +1,27 @@
 .dashboard_section {
-  height: 1400px;
+  height: 100%;
   width: 100%;
-  overflow: scroll;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .dashboard_section .dashboard_img {
-  height: 100%;
+  width: 80%;
+  /* height: 350px; */
+  height: 70vh;
 }
 
+@media only screen and (max-width: 900px) {
+  .dashboard_section .dashboard_img {
+    object-fit: contain;
+    width: 90vw;
+    height: auto !important;
+  }
+}
+
+/* View work book  */
 .view_workbook_link {
   font-size: 18px;
   color: var(--text_secondary_1);
