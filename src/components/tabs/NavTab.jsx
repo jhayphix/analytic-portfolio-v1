@@ -12,6 +12,7 @@
   |----------------------------------------------------------------------------
 */
 const NavTab = ({ activeTab, tabs, handleTabClick }) => {
+  console.log(tabs);
   /*
   |----------------------------------------
   | Return
@@ -23,7 +24,7 @@ const NavTab = ({ activeTab, tabs, handleTabClick }) => {
         {tabs?.map((tab, index) => (
           <div
             key={index}
-            className={`tab_item px-3 my-0 ${
+            className={`tab_item px-3 my-lg-0 my-1 ${
               activeTab === index ? "tab_active" : ""
             }`}
             onClick={() => handleTabClick(index, tab.toLowerCase())}
