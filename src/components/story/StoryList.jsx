@@ -18,7 +18,7 @@ const StoryList = ({ style, list }) => {
   |----------------------------------------
   */
   return (
-    <ul>
+    <ul className="__ul">
       {list?.map((list_item, index) => {
         return (
           // <li key={index} className="mb-2 lead">

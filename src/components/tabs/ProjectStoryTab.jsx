@@ -29,7 +29,7 @@ const ProjectStoryTab = ({ story_tab, setCategory }) => {
   |----------------------------------------
   */
   return (
-    <div className="mb-3">
+    <div className="mb-3 border border-danger">
       <NavTab
         activeTab={activeTab}
         tabs={tabs}

@@ -1,19 +1,24 @@
 :root {
   --h1_fs: 33px;
+  --h2_fs: calc(var(--h1_fs) - 10px);
+  --h3_fs: calc(var(--h2_fs) - 4px);
   --h1_fs_sm: 27px;
-  --h2_fs: calc(var(--h1_fs) - 5px);
   --h2_fs_sm: calc(var(--h1_fs_sm) - 2px);
-  --h3_fs: calc(var(--h2_fs) - 9px);
   --h3_fs_sm: calc(var(--h2_fs_sm) - 3px);
   --header_fw: 500;
   --header_mb: 0.5rem;
+  --header_2_mb: 0rem;
+  --header_3_mb: 0.2rem;
 
   --text_fs: 20px;
   --text_fs_sm: 19px;
   --text_lg_fs: calc(var(--text_fs) + 5px);
   --text_lg_fs_sm: calc(var(--text_fs_sm) + 5px);
   --text_fw: 300;
-  --text_mb: 1.5rem;
+  --text_mb: 0.9rem;
+  --text_short_mb: 0.1rem;
+
+  --ul_mb: 0.3rem;
 
   --para: 2rem;
   --para_sm: 1rem;
@@ -34,18 +39,20 @@
 .__header_2,
 .__header_3 {
   font-weight: var(--header_fw);
-  margin-bottom: var(--header_mb);
 }
 
 .__header,
 .__header_1 {
   font-size: var(--h1_fs);
+  margin-bottom: var(--header_mb);
 }
 .__header_2 {
   font-size: var(--h2_fs);
+  margin-bottom: var(--header_2_mb);
 }
 .__header_3 {
   font-size: var(--h3_fs);
+  margin-bottom: var(--header_3_mb);
 }
 
 /* Text */
@@ -61,6 +68,10 @@
 
 .__text_lg {
   font-size: var(--text_lg_fs);
+}
+
+.__text_short {
+  margin-bottom: var(--text_short_mb);
 }
 
 /* ------------------------------------------------------------------ */
@@ -101,6 +112,9 @@
   | List style
   |----------------------------------------
 */
+.__ul {
+  margin-bottom: var(--ul_mb);
+}
 .__list_style_circle {
   list-style-type: circle;
 }

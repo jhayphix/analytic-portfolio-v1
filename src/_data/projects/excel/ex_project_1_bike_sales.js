@@ -20,6 +20,7 @@ const ex_project_1_bike_sales = {
     "https://onedrive.live.com/embed?resid=82C5119070277DD2%21319&authkey=%21AJuUvQdG2rtVBec&em=2&AllowTyping=True&ActiveCell='Dashboard'!A1&wdHideGridlines=True&wdHideHeaders=True&wdInConfigurator=True&wdInConfigurator=True",
 
   story: [
+    // Introduction
     {
       story_nav: "Introduction",
       story_info: [
@@ -45,6 +46,8 @@ const ex_project_1_bike_sales = {
         },
       ],
     },
+
+    // Data exploration
     {
       story_nav: "Data Exploration",
       story_info: [
@@ -54,7 +57,7 @@ const ex_project_1_bike_sales = {
         },
         {
           text: "The dataset comprises a total of 1026 records, each representing a unique individual. The key variables and their types are as follows:",
-          style: ["__text"],
+          style: ["__text __text_short"],
         },
         {
           text: [
@@ -110,6 +113,8 @@ const ex_project_1_bike_sales = {
         },
       ],
     },
+
+    // Descriptive statistics
     {
       story_nav: "Descriptive Statistics",
       story_info: [
@@ -119,7 +124,7 @@ const ex_project_1_bike_sales = {
         },
         {
           text: "The following summary statistics provide a snapshot of key variables in the dataset:",
-          style: ["__text __para"],
+          style: ["__text __text_short __para"],
         },
         {
           text: "Income:",
@@ -150,6 +155,8 @@ const ex_project_1_bike_sales = {
         },
       ],
     },
+
+    // Key Findings
     {
       story_nav: "Key Findings",
       story_info: [
@@ -163,7 +170,7 @@ const ex_project_1_bike_sales = {
         },
         {
           text: "Males exhibit a higher average income ($60,124) compared to females ($55,774).",
-          style: "__text __para_2",
+          style: "__text __text_short __para_2",
         },
         {
           text: "Implication:",
@@ -171,7 +178,7 @@ const ex_project_1_bike_sales = {
         },
         {
           text: " Income disparities may play a role in influencing purchasing behavior, and targeted marketing strategies may need to consider gender-specific income dynamics.",
-          style: "__text __para_2",
+          style: "__text __text_short __para_2",
         },
 
         // 2
@@ -185,7 +192,7 @@ const ex_project_1_bike_sales = {
         },
         {
           text: "There is an inverse relationship between commute distance and bike purchases.",
-          style: "__text __para_2",
+          style: "__text __text_short __para_2",
         },
         {
           text: "Implication:",
@@ -193,12 +200,12 @@ const ex_project_1_bike_sales = {
         },
         {
           text: "Individuals with shorter commutes are more inclined to purchase bikes, suggesting a potential market for urban or short-distance commuting bicycles.",
-          style: "__text __para_2",
+          style: "__text __text_short __para_2",
         },
 
         // 3
         {
-          text: "6.3 Age-Related Preferences",
+          text: "4.3 Age-Related Preferences",
           style: "__header_2 __color_accent",
         },
         {
@@ -207,7 +214,7 @@ const ex_project_1_bike_sales = {
         },
         {
           text: "Middle-aged individuals are the primary demographic for bike purchases, followed by older adults.",
-          style: "__text __para_2",
+          style: "__text __text_short __para_2",
         },
         {
           text: "Implication:",
@@ -215,12 +222,12 @@ const ex_project_1_bike_sales = {
         },
         {
           text: "Tailoring marketing efforts to the preferences and lifestyle of middle-aged and older demographics may prove more effective in promoting bike sales.",
-          style: "__text __para_2",
+          style: "__text __text_short __para_2",
         },
 
         // 4
         {
-          text: "6.4 Marital Status Impact",
+          text: "4.4 Marital Status Impact",
           style: "__header_2 __color_accent",
         },
         {
@@ -229,7 +236,7 @@ const ex_project_1_bike_sales = {
         },
         {
           text: " Marital status does influence bike purchases, with variations observed across categories.",
-          style: "__text __para_2",
+          style: "__text __text_short __para_2",
         },
         {
           text: "Implication:",
@@ -237,12 +244,12 @@ const ex_project_1_bike_sales = {
         },
         {
           text: "Targeted campaigns may be designed based on marital status, recognizing differing preferences and needs among singles, married individuals, and those with children.settings",
-          style: "__text __para_2",
+          style: "__text __text_short __para_2",
         },
 
         // 5
         {
-          text: "",
+          text: "4.5 Gender-Specific Trends",
           style: "__header_2 __color_accent",
         },
         {
@@ -250,21 +257,21 @@ const ex_project_1_bike_sales = {
           style: "__header_3 __para",
         },
         {
-          text: "",
-          style: "__text __para_2",
+          text: "Males are more likely to purchase bikes than females, with a notable income difference.",
+          style: "__text __text_short __para_2",
         },
         {
           text: "Implication:",
           style: "__header_3 __para",
         },
         {
-          text: "",
-          style: "__text __para_2",
+          text: "Crafting marketing messages that resonate with each gender and addressing income-related disparities could enhance outreach and appeal to a broader customer base.",
+          style: "__text __text_short __para_2",
         },
 
         // 6
         {
-          text: "",
+          text: "4.6 Regional Variances",
           style: "__header_2 __color_accent",
         },
         {
@@ -272,21 +279,21 @@ const ex_project_1_bike_sales = {
           style: "__header_3 __para",
         },
         {
-          text: "",
-          style: "__text __para_2",
+          text: "Regional differences impact bike purchasing behavior.",
+          style: "__text __text_short __para_2",
         },
         {
           text: "Implication:",
           style: "__header_3 __para",
         },
         {
-          text: "",
-          style: "__text __para_2",
+          text: "Tailoring promotional activities to specific regions, considering cultural and geographical nuances, may optimize marketing strategies.",
+          style: "__text __text_short __para_2",
         },
 
         // 7
         {
-          text: "",
+          text: "4.7 Educational Influence:",
           style: "__header_2 __color_accent",
         },
         {
@@ -294,21 +301,21 @@ const ex_project_1_bike_sales = {
           style: "__header_3 __para",
         },
         {
-          text: "",
-          style: "__text __para_2",
+          text: "Education levels correlate with bike purchases, indicating potential preferences among different educational groups.",
+          style: "__text __text_short __para_2",
         },
         {
           text: "Implication:",
           style: "__header_3 __para",
         },
         {
-          text: "",
-          style: "__text __para_2",
+          text: "Educational background should be factored into marketing approaches to align with the preferences of distinct educational segments.",
+          style: "__text __text_short __para_2",
         },
 
         // 8
         {
-          text: "",
+          text: "4.8 Occupation and Bike Preferences",
           style: "__header_2 __color_accent",
         },
         {
@@ -316,21 +323,21 @@ const ex_project_1_bike_sales = {
           style: "__header_3 __para",
         },
         {
-          text: "",
-          style: "__text __para_2",
+          text: "Occupation plays a role in bike purchasing decisions.",
+          style: "__text __text_short __para_2",
         },
         {
           text: "Implication:",
           style: "__header_3 __para",
         },
         {
-          text: "",
-          style: "__text __para_2",
+          text: "Understanding the preferences of different occupational groups can inform targeted marketing efforts and product positioning.",
+          style: "__text __text_short __para_2",
         },
 
         // 9
         {
-          text: "",
+          text: "4.9 Holistic Consumer Profile",
           style: "__header_2 __color_accent",
         },
         {
@@ -338,19 +345,37 @@ const ex_project_1_bike_sales = {
           style: "__header_3 __para",
         },
         {
-          text: "",
-          style: "__text __para_2",
+          text: "The ideal bike consumer profile emerges as a middle-aged, urban individual with a shorter commute, potentially male, with a moderate to high income.",
+          style: "__text __text_short __para_2",
         },
         {
           text: "Implication:",
           style: "__header_3 __para",
         },
         {
-          text: "",
-          style: "__text __para_2",
+          text: "Combining these insights can guide the development of a comprehensive marketing strategy that resonates with the target demographic.",
+          style: "__text __text_short __para_2",
         },
       ],
     },
+
+    // Recommendations
+    {
+      story_nav: "Recommendations",
+      story_info: [],
+    },
+
+    // Limitations 8
+    {
+      story_nav: "Limitations",
+      story_info: [],
+    },
+
+    // Conclusion 9
+    {
+      story_nav: "Conclusion",
+      story_info: [],
+    }
   ],
 };
 
