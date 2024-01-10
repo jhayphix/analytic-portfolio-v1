@@ -22,7 +22,7 @@ const StoryList = ({ style, list }) => {
       {list?.map((list_item, index) => {
         return (
           // <li key={index} className="mb-2 lead">
-          <li key={index} className={style}>
+          <li key={index} className={`mb-0 ${style}`}>
             {list_item}
           </li>
         );

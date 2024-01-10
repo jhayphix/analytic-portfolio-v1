@@ -69,7 +69,7 @@ const ex_project_1_bike_sales = {
             "Age: Continuous",
             "Purchased Bike: Categorical (Target Variable)",
           ],
-          style: ["__text __mb_0 __para __list_style_circle"],
+          style: ["__text  __para __list_style_circle"],
           type: "list",
         },
         {
@@ -111,31 +111,243 @@ const ex_project_1_bike_sales = {
       ],
     },
     {
-      story_nav: "Insight",
+      story_nav: "Descriptive Statistics",
       story_info: [
         {
-          text: "Insight: Through Data",
-          style: ["__header_1 __color_accent"],
+          text: "3.1 Summary Statistics:",
+          style: ["__header_2 __color_accent"],
         },
         {
-          text: "In a rapidly evolving business landscape, data has become a priceless asset, offering a wealth of information waiting to be tapped. The power of data analytics lies in its ability to transform raw data into actionable insights, empowering businesses to make informed decisions, optimize processes, and drive growth. ",
-          style: ["__text"],
+          text: "The following summary statistics provide a snapshot of key variables in the dataset:",
+          style: ["__text __para"],
         },
         {
-          text: "Welcome to our data analytics project, where we embark on a journey of discovery and analysis. In this endeavor, we harness the potential of data to uncover hidden patterns, trends, and opportunities. By leveraging state-of-the-art techniques and tools, we aim to answer critical questions, solve complex problems, and gain a competitive edge in the modern data-driven world.",
-          style: ["__text"],
+          text: "Income:",
+          style: ["__header_3 __para_2"],
         },
         {
-          text: "This project represents a commitment to excellence in data analysis. We'll explore various aspects of data, from data collection and cleaning to advanced predictive modeling and visualization. Through rigorous analysis and interpretation, we'll bring clarity to the chaos of information, making it easier for you to chart a course toward success. ",
-          style: ["__text"],
+          text: [
+            "Mean Income (Overall): $58,849",
+            "Mean Income (Females): $55,774",
+            "Mean Income (Males): $60,124",
+            "Median Income: $57,000",
+            "Standard Deviation: $19,236",
+          ],
+          style: ["__text  __para_3"],
+          type: "list",
         },
         {
-          text: "Together, we will navigate the vast data landscape, transforming numbers and statistics into actionable strategies. Our goal is to provide you with valuable insights that inform your decision-making process, driving your business forward. Join us as we explore the power of data analytics and embrace a future where data is not just a resource but a catalyst for growth and innovation.",
-          style: ["__text"],
+          text: "Commute Distance:",
+          style: ["__header_3 __para_2"],
         },
         {
-          text: "Let's begin the journey of unlocking insights through data analytics.",
-          style: ["__text"],
+          text: [
+            "Mean Commute Distance: Moderate",
+            "Median Commute Distance: Short",
+          ],
+          style: ["__text  __para_3"],
+          type: "list",
+        },
+      ],
+    },
+    {
+      story_nav: "Key Findings",
+      story_info: [
+        {
+          text: "4.1 Income Disparities",
+          style: "__header_2 __color_accent",
+        },
+        {
+          text: "Observation:",
+          style: "__header_3 __para",
+        },
+        {
+          text: "Males exhibit a higher average income ($60,124) compared to females ($55,774).",
+          style: "__text __para_2",
+        },
+        {
+          text: "Implication:",
+          style: "__header_3 __para",
+        },
+        {
+          text: " Income disparities may play a role in influencing purchasing behavior, and targeted marketing strategies may need to consider gender-specific income dynamics.",
+          style: "__text __para_2",
+        },
+
+        // 2
+        {
+          text: "4.2 Commute Distance Dynamics:",
+          style: "__header_2 __color_accent",
+        },
+        {
+          text: "Observation:",
+          style: "__header_3 __para",
+        },
+        {
+          text: "There is an inverse relationship between commute distance and bike purchases.",
+          style: "__text __para_2",
+        },
+        {
+          text: "Implication:",
+          style: "__header_3 __para",
+        },
+        {
+          text: "Individuals with shorter commutes are more inclined to purchase bikes, suggesting a potential market for urban or short-distance commuting bicycles.",
+          style: "__text __para_2",
+        },
+
+        // 3
+        {
+          text: "6.3 Age-Related Preferences",
+          style: "__header_2 __color_accent",
+        },
+        {
+          text: "Observation:",
+          style: "__header_3 __para",
+        },
+        {
+          text: "Middle-aged individuals are the primary demographic for bike purchases, followed by older adults.",
+          style: "__text __para_2",
+        },
+        {
+          text: "Implication:",
+          style: "__header_3 __para",
+        },
+        {
+          text: "Tailoring marketing efforts to the preferences and lifestyle of middle-aged and older demographics may prove more effective in promoting bike sales.",
+          style: "__text __para_2",
+        },
+
+        // 4
+        {
+          text: "6.4 Marital Status Impact",
+          style: "__header_2 __color_accent",
+        },
+        {
+          text: "Observation:",
+          style: "__header_3 __para",
+        },
+        {
+          text: " Marital status does influence bike purchases, with variations observed across categories.",
+          style: "__text __para_2",
+        },
+        {
+          text: "Implication:",
+          style: "__header_3 __para",
+        },
+        {
+          text: "Targeted campaigns may be designed based on marital status, recognizing differing preferences and needs among singles, married individuals, and those with children.settings",
+          style: "__text __para_2",
+        },
+
+        // 5
+        {
+          text: "",
+          style: "__header_2 __color_accent",
+        },
+        {
+          text: "Observation:",
+          style: "__header_3 __para",
+        },
+        {
+          text: "",
+          style: "__text __para_2",
+        },
+        {
+          text: "Implication:",
+          style: "__header_3 __para",
+        },
+        {
+          text: "",
+          style: "__text __para_2",
+        },
+
+        // 6
+        {
+          text: "",
+          style: "__header_2 __color_accent",
+        },
+        {
+          text: "Observation:",
+          style: "__header_3 __para",
+        },
+        {
+          text: "",
+          style: "__text __para_2",
+        },
+        {
+          text: "Implication:",
+          style: "__header_3 __para",
+        },
+        {
+          text: "",
+          style: "__text __para_2",
+        },
+
+        // 7
+        {
+          text: "",
+          style: "__header_2 __color_accent",
+        },
+        {
+          text: "Observation:",
+          style: "__header_3 __para",
+        },
+        {
+          text: "",
+          style: "__text __para_2",
+        },
+        {
+          text: "Implication:",
+          style: "__header_3 __para",
+        },
+        {
+          text: "",
+          style: "__text __para_2",
+        },
+
+        // 8
+        {
+          text: "",
+          style: "__header_2 __color_accent",
+        },
+        {
+          text: "Observation:",
+          style: "__header_3 __para",
+        },
+        {
+          text: "",
+          style: "__text __para_2",
+        },
+        {
+          text: "Implication:",
+          style: "__header_3 __para",
+        },
+        {
+          text: "",
+          style: "__text __para_2",
+        },
+
+        // 9
+        {
+          text: "",
+          style: "__header_2 __color_accent",
+        },
+        {
+          text: "Observation:",
+          style: "__header_3 __para",
+        },
+        {
+          text: "",
+          style: "__text __para_2",
+        },
+        {
+          text: "Implication:",
+          style: "__header_3 __para",
+        },
+        {
+          text: "",
+          style: "__text __para_2",
         },
       ],
     },

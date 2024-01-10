@@ -4,6 +4,7 @@ import { useContext } from "react";
 
 // ... Context
 import { NavigationContext } from "@contexts/NavigationContextProvider";
+import { ProjectContext } from "@contexts/ProjectContextProvider";
 
 // ... Components
 
@@ -16,6 +17,7 @@ import { NavigationContext } from "@contexts/NavigationContextProvider";
 */
 const PortfolioBreadCrumb = ({ project_category, project_name }) => {
   const { home, portfolio } = useContext(NavigationContext);
+  const { changeProjectCategory } = useContext(ProjectContext);
 
   const home_path = home?.path ? home?.path : "";
   const portfolio_path = portfolio?.path ? portfolio?.path : "";
@@ -36,10 +38,17 @@ const PortfolioBreadCrumb = ({ project_category, project_name }) => {
             <Link to={home_path}>Home</Link>
           </li>
           <li className="breadcrumb-item">
-            <Link to={portfolio_path}>Portfolio</Link>
+            <Link to={portfolio_path}>Projects</Link>
           </li>
-          <li className="breadcrumb-item active" aria-current="page">
-            {project_category ? project_category : ""}
+          <li className="breadcrumb-item active">
+            <Link
+              to={portfolio_path}
+              onClick={() => {
+                changeProjectCategory(project_category);
+              }}
+            >
+              {project_category ? project_category : ""}
+            </Link>
           </li>
           <li className="breadcrumb-item active" aria-current="page">
             {project_name ? project_name : ""}

@@ -7,14 +7,18 @@ import { createContext, useState } from "react";
 
 // ... Assets
 import project_db from "@data/project_db.js";
+import { project_tabs } from "@data/tab_db";
+import { dashboard_story_tabs } from "@data/tab_db";
 
 export const ProjectContext = createContext({
   activeTab: "",
   setActiveTab: () => {},
   category: "",
   setCategory: () => {},
+  changeProjectCategory: () => {},
 
-  tabs: [],
+  project_tabs: [],
+  dashboard_story_tabs: [],
   handleTabClick: () => {},
   projects: [],
   filteredProjects: [],
@@ -34,8 +38,6 @@ const ProjectContextProvider = ({ children }) => {
   const [activeTab, setActiveTab] = useState(0);
   const [category, setCategory] = useState("all");
 
-  const tabs = ["All", "Excel", "SQL", "Python", "Tableau"];
-
   const handleTabClick = (index, category) => {
     setActiveTab(index);
     setCategory(category);
@@ -50,6 +52,23 @@ const ProjectContextProvider = ({ children }) => {
 
   /*
   |----------------------------------------
+  | Function
+  |----------------------------------------
+  */
+  const changeProjectCategory = (category) => {
+    const project_category = category?.toLowerCase();
+    setCategory(project_category);
+
+    project_tabs?.forEach((tab) => {
+      if (tab?.toLowerCase() === project_category) {
+        const index = project_tabs?.indexOf(tab);
+        setActiveTab(index);
+      }
+    });
+  };
+
+  /*
+  |----------------------------------------
   | Context
   |----------------------------------------
   */
@@ -58,7 +77,10 @@ const ProjectContextProvider = ({ children }) => {
     setActiveTab,
     category,
     setCategory,
-    tabs,
+    changeProjectCategory,
+
+    project_tabs,
+    dashboard_story_tabs,
     handleTabClick,
     projects,
     filteredProjects,

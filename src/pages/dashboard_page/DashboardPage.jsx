@@ -34,6 +34,7 @@ const DashboardPage = () => {
     project_story_nav,
     project_img,
     project_name,
+    project_cat,
     project_category,
   } = useContext(ProjectInfoContext);
   const [category, setCategory] = useState("dashboard");
@@ -51,6 +52,7 @@ const DashboardPage = () => {
     <div className="container-lg" style={{ paddingBottom: "60px" }}>
       <PortfolioBreadCrumb
         project_category={project_category}
+        project_cat={project_cat}
         project_name={project_name}
       />
       <PageBannerSection pageName={project_name} />

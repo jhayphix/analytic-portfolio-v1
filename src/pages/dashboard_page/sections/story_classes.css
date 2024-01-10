@@ -19,7 +19,7 @@
   --para_sm: 1rem;
   --para_2: calc(var(--para) + 2rem);
   --para_2_sm: calc(var(--para_sm) + 0.5rem);
-  --para_3: calc(var(--para_2) + 1);
+  --para_3: calc(var(--para_2) + 1rem);
   --para_3_sm: calc(var(--para_2_sm) + 0.5rem);
 }
 
