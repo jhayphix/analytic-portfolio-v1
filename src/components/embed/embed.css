@@ -1,0 +1,7 @@
+@media only screen and (max-width: 572px) {
+  .iframe_outer_container {
+    width: 90%;
+    height: 80vh;
+    border-right: 1px solid var(--bg_secondary_1);
+  }
+}

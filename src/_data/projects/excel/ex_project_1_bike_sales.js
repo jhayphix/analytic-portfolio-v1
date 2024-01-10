@@ -13,7 +13,7 @@ const ex_project_1_bike_sales = {
   type: "Personal",
   // dashboard_img: TableauCovidImg,
   iframe_height: "600",
-  iframe_width: "96%",
+  iframe_width: "100%",
   iframe_url:
     "https://onedrive.live.com/view?id=82C5119070277DD2!319&resid=82C5119070277DD2!319&authkey=!AJuUvQdG2rtVBec&wdo=2&cid=82c5119070277dd2",
   iframe_src:
@@ -114,7 +114,7 @@ const ex_project_1_bike_sales = {
       story_nav: "Insight",
       story_info: [
         {
-          text: "Insight: Unlocking Insights Through Data Analytics",
+          text: "Insight: Through Data",
           style: ["__header_1 __color_accent"],
         },
         {

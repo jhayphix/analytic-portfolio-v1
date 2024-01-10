@@ -30,6 +30,7 @@ import "@components/cards/cards.css";
 import "@components/banners/banners.css";
 import "@components/tabs/tabs.css";
 import "@components/breadcrumb/breadcrumb.css";
+import "@components/embed/embed.css"
 
 const root = ReactDOM.createRoot(document.querySelector("#root"));
 root.render(<App />);

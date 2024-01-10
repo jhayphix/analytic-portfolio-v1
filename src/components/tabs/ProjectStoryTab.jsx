@@ -29,7 +29,7 @@ const ProjectStoryTab = ({ story_tab, setCategory }) => {
   |----------------------------------------
   */
   return (
-    <div style={{ marginTop: "90px", marginBottom: "90px" }}>
+    <div className="mb-3">
       <NavTab
         activeTab={activeTab}
         tabs={tabs}

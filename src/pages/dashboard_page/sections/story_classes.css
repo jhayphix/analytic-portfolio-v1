@@ -1,18 +1,18 @@
 :root {
-  --h1_fs: 35px;
-  --h1_fs_sm: 30px;
+  --h1_fs: 33px;
+  --h1_fs_sm: 27px;
   --h2_fs: calc(var(--h1_fs) - 5px);
   --h2_fs_sm: calc(var(--h1_fs_sm) - 2px);
   --h3_fs: calc(var(--h2_fs) - 9px);
   --h3_fs_sm: calc(var(--h2_fs_sm) - 3px);
-  --header_fw: 400;
+  --header_fw: 500;
   --header_mb: 0.5rem;
 
-  --text_fs: 22px;
-  --text_fs_sm: 20px;
-  --text_lg_fs: 30px;
-  --text_lg_fs_sm: 24px;
-  --text_fw: lighter;
+  --text_fs: 20px;
+  --text_fs_sm: 19px;
+  --text_lg_fs: calc(var(--text_fs) + 5px);
+  --text_lg_fs_sm: calc(var(--text_fs_sm) + 5px);
+  --text_fw: 300;
   --text_mb: 1.5rem;
 
   --para: 2rem;
