@@ -362,7 +362,161 @@ const ex_project_1_bike_sales = {
     // Recommendations
     {
       story_nav: "Recommendations",
-      story_info: [],
+      story_info: [
+        // 1
+        {
+          text: "5.1 Targeted Marketing Strategies",
+          style: ["__header_2 __color_accent"],
+        },
+        {
+          text: "Utilize Gender-Specific Campaigns:",
+          style: ["__header_3 __para"],
+        },
+        {
+          text: "Design marketing campaigns that resonate with both genders, addressing income-related disparities and appealing to the unique preferences of male and female consumers.",
+          style: ["__text __para_2"],
+        },
+
+        // 2
+        {
+          text: "5.2 Commute-Friendly Products",
+          style: ["__header_2 __color_accent"],
+        },
+        {
+          text: "Develop Short-Distance Commuting Bicycles:",
+          style: ["__header_3 __para"],
+        },
+        {
+          text: "Recognizing the inverse relationship between commute distance and bike purchases, focus on developing and promoting bicycles tailored for short-distance urban commuting.",
+          style: ["__text __para_2"],
+        },
+
+        // 3
+        {
+          text: "5.3 Age-Tailored Promotions",
+          style: ["__header_2 __color_accent"],
+        },
+        {
+          text: "Target Middle-Aged and Older Demographics:",
+          style: ["__header_3 __para"],
+        },
+        {
+          text: "Direct marketing efforts towards the middle-aged and older age groups, emphasizing the benefits of biking for health, leisure, and sustainable transportation.",
+          style: ["__text __para_2"],
+        },
+
+        // 4
+        {
+          text: "5.4 Marital Status-Centric Approaches",
+          style: ["__header_2 __color_accent"],
+        },
+        {
+          text: "Segmented Campaigns for Marital Status Categories:",
+          style: ["__header_3 __para"],
+        },
+        {
+          text: "Implement segmented campaigns based on marital status, acknowledging the differing preferences and needs of singles, married individuals, and those with children.",
+          style: ["__text __para_2"],
+        },
+
+        // 5
+        {
+          text: "5.5 Regional Customization",
+          style: ["__header_2 __color_accent"],
+        },
+        {
+          text: "Adapt Promotions to Regional Characteristics:",
+          style: ["__header_3 __para"],
+        },
+        {
+          text: "Tailor marketing activities to suit regional nuances, considering cultural and geographical differences to enhance resonance with diverse audiences.",
+          style: ["__text __para_2"],
+        },
+
+        // 6
+        {
+          text: "5.6 Educational Engagement ",
+          style: ["__header_2 __color_accent"],
+        },
+        {
+          text: "Leverage Educational Backgrounds in Marketing:",
+          style: ["__header_3 __para"],
+        },
+        {
+          text: "Craft marketing messages that align with the preferences and values of different educational groups, promoting the benefits of biking based on varying educational levels.",
+          style: ["__text __para_2"],
+        },
+
+        // 7
+        {
+          text: "5.7 Occupation-Targeted Initiatives",
+          style: ["__header_2 __color_accent"],
+        },
+        {
+          text: "Customize Strategies for Occupational Groups:",
+          style: ["__header_3 __para"],
+        },
+        {
+          text: "Develop targeted initiatives catering to the preferences and lifestyles of different occupational segments, recognizing the influence of occupation on bike purchasing decisions.",
+          style: ["__text __para_2"],
+        },
+
+        // 8
+        {
+          text: "5.8 Inclusive Advertising",
+          style: ["__header_2 __color_accent"],
+        },
+        {
+          text: "Promote Inclusivity in Marketing Materials:",
+          style: ["__header_3 __para"],
+        },
+        {
+          text: "Ensure that marketing materials represent a diverse range of individuals to appeal to a broader audience, fostering inclusivity and resonating with a diverse consumer base.",
+          style: ["__text __para_2"],
+        },
+
+        // 9
+        {
+          text: "5.9 Pricing and Financing Options:",
+          style: ["__header_2 __color_accent"],
+        },
+        {
+          text: "Explore Flexible Payment Plans:",
+          style: ["__header_3 __para"],
+        },
+        {
+          text: "Introduce financing options or flexible payment plans to make bikes more accessible, addressing potential financial barriers for consumers with varying income levels.",
+          style: ["__text __para_2"],
+        },
+
+        // 10
+        {
+          text: "5.10 Continuous Monitoring and Adaptation",
+          style: ["__header_2 __color_accent"],
+        },
+        {
+          text: "Regularly Assess Market Dynamics:",
+          style: ["__header_3 __para"],
+        },
+        {
+          text: "Continuously monitor market trends, consumer preferences, and demographic shifts. Adapt marketing strategies accordingly to stay aligned with evolving consumer needs.",
+          style: ["__text __para_2"],
+        },
+
+        // 11
+        {
+          text: "5.11 Collaborate with Local Communities",
+          style: ["__header_2 __color_accent"],
+        },
+        {
+          text: "Engage in Community Collaborations:",
+          style: ["__header_3 __para"],
+        },
+        {
+          text: "Foster partnerships with local communities and organizations to strengthen brand presence and engage with potential customers in a meaningful way.",
+          style: ["__text __para_2"],
+        },
+      ],
     },
 
     // Limitations 8
@@ -375,7 +529,7 @@ const ex_project_1_bike_sales = {
     {
       story_nav: "Conclusion",
       story_info: [],
-    }
+    },
   ],
 };
 
