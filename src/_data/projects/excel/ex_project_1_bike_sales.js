@@ -519,13 +519,195 @@ const ex_project_1_bike_sales = {
       ],
     },
 
-    // Limitations 8
+    // Limitations
     {
       story_nav: "Limitations",
-      story_info: [],
+      story_info: [
+        // 1
+        {
+          text: "6.1 Sample Size and Representativeness",
+          style: ["__header_2 __color_accent"],
+        },
+        {
+          text: "Sample size: ",
+          style: ["__header_3 __para"],
+        },
+        {
+          text: "The dataset consists of 1026 records, which may not fully capture the diversity of the population. Findings should be interpreted with consideration for the sample size.",
+          style: ["__text __para_2"],
+        },
+
+        // 2
+        {
+          text: "6.2 Data Quality",
+          style: ["__header_2 __color_accent"],
+        },
+        {
+          text: "Missing Data: ",
+          style: ["__header_3 __para"],
+        },
+        {
+          text: "Despite efforts to clean and preprocess the data, there may be instances of missing or incomplete information, potentially impacting the accuracy of certain analyses.",
+          style: ["__text __para_2"],
+        },
+
+        // 3
+        {
+          text: "Generalizability",
+          style: ["__header_2 __color_accent"],
+        },
+        {
+          text: "Limited Generalizability:",
+          style: ["__header_3 __para"],
+        },
+        {
+          text: "The findings are based on a specific dataset and may not be entirely generalizable to broader populations or different geographic regions.",
+          style: ["__text __para_2"],
+        },
+
+        // 4
+        {
+          text: "6.4 Income Reporting",
+          style: ["__header_2 __color_accent"],
+        },
+        {
+          text: "Income Precision: ",
+          style: ["__header_3 __para"],
+        },
+        {
+          text: "The accuracy of income data relies on self-reporting, and participants may provide rounded or estimated figures, leading to potential inaccuracies.",
+          style: ["__text __para_2"],
+        },
+
+        // 5
+        {
+          text: "6.5 Age Grouping",
+          style: ["__header_2 __color_accent"],
+        },
+        {
+          text: "Age Grouping Simplifications:",
+          style: ["__header_3 __para"],
+        },
+        {
+          text: "The categorization of age groups (adolescent, middle age, old) may oversimplify the diversity within each group, potentially masking nuanced age-related patterns.",
+          style: ["__text __para_2"],
+        },
+
+        // 6
+        {
+          text: "6.6 Unobserved Variables",
+          style: ["__header_2 __color_accent"],
+        },
+        {
+          text: "Unobserved Factors: ",
+          style: ["__header_3 __para"],
+        },
+        {
+          text: "The dataset may lack certain variables that could contribute to a more comprehensive understanding of bike purchasing behavior, such as personal preferences, lifestyle choices, or cultural influences.",
+          style: ["__text __para_2"],
+        },
+
+        // 7
+        {
+          text: "6.7 Correlation vs. Causation",
+          style: ["__header_2 __color_accent"],
+        },
+        {
+          text: "Correlation Inference:",
+          style: ["__header_3 __para"],
+        },
+        {
+          text: "While correlations have been identified, causation cannot be conclusively established. Other unobserved factors may contribute to the relationships observed in the data.",
+          style: ["__text __para_2"],
+        },
+
+        // 8
+        {
+          text: "6.8 Time Sensitivity",
+          style: ["__header_2 __color_accent"],
+        },
+        {
+          text: "Temporal Factors:",
+          style: ["__header_3 __para"],
+        },
+        {
+          text: "The dataset is a snapshot at a specific point in time. Changes in consumer preferences, market dynamics, or socioeconomic conditions over time are not accounted for in this analysis.",
+          style: ["__text __para_2"],
+        },
+
+        // 9
+        {
+          text: "6.9 External Influences",
+          style: ["__header_2 __color_accent"],
+        },
+        {
+          text: "External Factors: ",
+          style: ["__header_3 __para"],
+        },
+        {
+          text: "External events or influences, such as economic changes, public health crises, or technological advancements, may have effects on bike purchases that are not captured in the dataset.",
+          style: ["__text __para_2"],
+        },
+
+        // 10
+        {
+          text: "6.10 Occupation Complexity",
+          style: ["__header_2 __color_accent"],
+        },
+        {
+          text: "Occupation Classification: ",
+          style: ["__header_3 __para"],
+        },
+        {
+          text: "The categorization of occupations may oversimplify the diverse nature of employment roles, potentially masking variations within occupational groups.",
+          style: ["__text __para_2"],
+        },
+
+        // 11
+        {
+          text: "6.11 Self-Reported Data",
+          style: ["__header_2 __color_accent"],
+        },
+        {
+          text: "Reliance on Self-Reporting:",
+          style: ["__header_3 __para"],
+        },
+        {
+          text: "Certain variables, such as education and income, are based on participants' self-reporting, introducing the possibility of reporting biases.",
+          style: ["__text __para_2"],
+        },
+
+        // 12
+        {
+          text: "6.12 Limited Context",
+          style: ["__header_2 __color_accent"],
+        },
+        {
+          text: "Contextual Limitations: ",
+          style: ["__header_3 __para"],
+        },
+        {
+          text: "The dataset may lack detailed contextual information that could provide deeper insights into the motivations and decision-making processes of individuals regarding bike purchases.",
+          style: ["__text __para_2"],
+        },
+
+        // 13
+        {
+          text: "6.13 Evolving Market Dynamics",
+          style: ["__header_2 __color_accent"],
+        },
+        {
+          text: "Market Dynamics:",
+          style: ["__header_3 __para"],
+        },
+        {
+          text: "The recommendations are based on current observations, and market dynamics are subject to change. Regular reassessment and adaptation of strategies are crucial in a dynamic market environment.",
+          style: ["__text __para_2"],
+        },
+      ],
     },
 
-    // Conclusion 9
+    // Conclusion
     {
       story_nav: "Conclusion",
       story_info: [],
