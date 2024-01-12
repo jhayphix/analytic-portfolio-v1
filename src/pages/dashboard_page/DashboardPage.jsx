@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 
 // ... Context
 import { ProjectInfoContext } from "@contexts/ProjectInfoContextProvider";
+import { DefaultContext } from "@contexts/DefaultContextProvider";
 
 // ... Components
 import PortfolioBreadCrumb from "@components/breadcrumb/PortfolioBreadCrumb";
@@ -37,6 +38,7 @@ const DashboardPage = () => {
     project_cat,
     project_category,
   } = useContext(ProjectInfoContext);
+  const { def_dashboard_img_1 } = useContext(DefaultContext);
   const [category, setCategory] = useState("dashboard");
 
   useEffect(() => {
@@ -56,7 +58,11 @@ const DashboardPage = () => {
         project_name={project_name}
       />
       <PageBannerSection pageName={project_name} />
-      <ProjectBanner projectImg={project_img} projectName={project_name} />
+      <ProjectBanner
+        projectImg={project_img ? project_img : def_dashboard_img_1}
+        projectName={project_name ? project_name : project_category}
+      />
+
       <DashboardStoryTab category={category} setCategory={setCategory} />
 
       {category === "dashboard" ? (

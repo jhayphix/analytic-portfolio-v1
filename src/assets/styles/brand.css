@@ -4,7 +4,8 @@
   |----------------------------------------
 */
 .brand_name_highlight {
-  color: var(--text_unchanged_accent) !important;
+  /* color: var(--text_unchanged_accent) !important; */
+  color: var(--text_accent_1) !important;
 }
 
 .brand_wrench {

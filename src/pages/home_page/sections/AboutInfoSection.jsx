@@ -27,18 +27,17 @@ const AboutInfoSection = () => {
           className="text-light mt-md-0 mt-3 mb-4 text_secondary_1"
           style={{ width: "145px" }}
         >
-          <span className="fw-bold text_accent_2">About</span> me
+          <span className="fw-bold text_accent_1">About</span> me
         </h2>
 
         <div>
-          {
-            about_me_text.map(({text},index) => {return(
-
-        <p className="lead text_secondary_1 mb-3" key={index}>
-          {text}
-        </p>
-            )})
-          }
+          {about_me_text.map(({ text }, index) => {
+            return (
+              <p className="lead text_secondary_1 mb-3" key={index}>
+                {text}
+              </p>
+            );
+          })}
         </div>
       </div>
     </>

@@ -1,6 +1,6 @@
 // Imports
-import DefDashboardImg1 from "@assets/images/projects/default_dashboard/dashboard_img_1.png";
-import DefDashboardImg2 from "@assets/images/projects/default_dashboard/dashboard_img_2.png";
+// import DefDashboardImg1 from "@assets/images/projects/default_dashboard/dashboard_img_1.png";
+// import DefDashboardImg2 from "@assets/images/projects/default_dashboard/dashboard_img_2.png";
 
 // Excel data base
 const sql_project_1 = {
@@ -8,8 +8,8 @@ const sql_project_1 = {
   name: "Air Bnb project",
   category: "sql",
   type: "Client",
-  project_img: DefDashboardImg1,
-  dashboard_img: DefDashboardImg2,
+  // project_img: DefDashboardImg1,
+  // dashboard_img: DefDashboardImg2,
 
   story: [
     {

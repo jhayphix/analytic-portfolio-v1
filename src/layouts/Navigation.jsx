@@ -132,8 +132,11 @@ const Navigation = () => {
                 return (
                   <li className="nav-item nav_item" key={index}>
                     <NavLink
-                      className={`nav-link nav_link py-1 ${({ isActive }) =>
-                        isActive ? " active_nav_link" : ""}`}
+                      className={({ isActive }) =>
+                        isActive
+                          ? "nav-link nav_link py-1 active_nav_link"
+                          : "nav-link nav_link py-1"
+                      }
                       to={path}
                       end={end}
                       onClick={() => {
