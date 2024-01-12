@@ -9,7 +9,7 @@ import { NavigationContext } from "@contexts/NavigationContextProvider";
 // ... Components
 
 // ... Assets
-import ExcelImg from "@assets/images/projects/excel/excel_project_image_1.png";
+import DefDashboardImg1 from "@assets/images/projects/default_dashboard/dashboard_img_1.png";
 
 /*
   |----------------------------------------------------------------------------
@@ -34,7 +34,7 @@ const ProjectCard = ({ project }) => {
       >
         <div className="work-img">
           <img
-            src={project?.project_img ? project?.project_img : ExcelImg}
+            src={project?.project_img ? project?.project_img : DefDashboardImg1}
             alt={project.name}
             className="img-fluid"
           />
@@ -75,7 +75,7 @@ ProjectCard.defaultProps = [
   {
     id: "default",
     name: "Bike sales",
-    img: ExcelImg,
+    img: DefDashboardImg1,
     category: "excel",
     type: "Personal",
   },

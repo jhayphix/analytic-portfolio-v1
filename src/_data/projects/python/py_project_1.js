@@ -1,6 +1,6 @@
 // Imports
-import PythonWebScrapingImg from "@assets/images/projects/python/python_web_scraping_img.png";
-import TableauCovidImg from "@assets/images/projects/tableau/tableau_covid_img.png";
+// import DefDashboardImg1 from "@assets/images/projects/default_dashboard/dashboard_img_1.png";
+// import DefDashboardImg2 from "@assets/images/projects/default_dashboard/dashboard_img_2.png";
 
 // Excel data base
 const python_project_1 = {
@@ -8,8 +8,8 @@ const python_project_1 = {
   name: "Web scraping",
   category: "python",
   type: "Client",
-  project_img: PythonWebScrapingImg,
-  dashboard_img: TableauCovidImg,
+  // project_img: DefDashboardImg1,
+  // dashboard_img: DefDashboardImg2,
 
   story: [
     {

@@ -1,15 +1,15 @@
 // Imports
-import TableauCovidImg from "@assets/images/projects/tableau/tableau_covid_img.png";
-import BikeSaleImg from "@assets/images/projects/excel/excel_bike_sale_img.png";
+import DefDashboardImg1 from "@assets/images/projects/default_dashboard/dashboard_img_1.png";
+import DefDashboardImg2 from "@assets/images/projects/default_dashboard/dashboard_img_2.png";
 
 // Excel data base
 const tableau_project_1 = {
   id: 2,
   name: "Covid 19",
-  project_img: TableauCovidImg,
+  project_img: DefDashboardImg1,
   category: "tableau",
   type: "Client",
-  dashboard_img: BikeSaleImg,
+  dashboard_img: DefDashboardImg2,
 
   story: [
     {
