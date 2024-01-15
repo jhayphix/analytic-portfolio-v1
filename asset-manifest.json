@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/analytic-portfolio/static/css/main.7b236f5c.css",
-    "main.js": "/analytic-portfolio/static/js/main.265dcc4d.js",
+    "main.css": "/analytic-portfolio/static/css/main.ea31fee0.css",
+    "main.js": "/analytic-portfolio/static/js/main.45a31569.js",
     "static/media/dashboard_img_1.png": "/analytic-portfolio/static/media/dashboard_img_1.7dab26df22b514386cfa.png",
     "static/media/dashboard_img_2.png": "/analytic-portfolio/static/media/dashboard_img_2.02e96f656d69ac42361e.png",
     "static/media/ex_bike_sales_08_01_img.png": "/analytic-portfolio/static/media/ex_bike_sales_08_01_img.8c04c77ea96bd9622177.png",
@@ -13,6 +13,7 @@
     "static/media/shape_right_3.svg": "/analytic-portfolio/static/media/shape_right_3.a80f1dcb97be1acb4d22.svg",
     "static/media/shape_mid_2.svg": "/analytic-portfolio/static/media/shape_mid_2.4f97b241a65ea6336c72.svg",
     "static/media/shape_mid_1.svg": "/analytic-portfolio/static/media/shape_mid_1.054b18e5b04292bf7848.svg",
+    "static/media/tb_airbnb_12_01_img.png": "/analytic-portfolio/static/media/tb_airbnb_12_01_img.f7b84200da8d9555a9d6.png",
     "static/media/shape_left_3.svg": "/analytic-portfolio/static/media/shape_left_3.5b626c8719eb39f37b39.svg",
     "static/media/avatar_dark.png": "/analytic-portfolio/static/media/avatar_dark.0ad6f07bd8587f91e7aa.png",
     "static/media/award_icon.svg": "/analytic-portfolio/static/media/award_icon.175843571048489be1030076942833e4.svg",
@@ -29,11 +30,11 @@
     "static/media/checkmark_icon.svg": "/analytic-portfolio/static/media/checkmark_icon.8a436541ee92f58bd1f505dc22b8e633.svg",
     "index.html": "/analytic-portfolio/index.html",
     "static/media/service_icon_5.svg": "/analytic-portfolio/static/media/service_icon_5.70a90f26af97e2f7754294bbcc5e696c.svg",
-    "main.7b236f5c.css.map": "/analytic-portfolio/static/css/main.7b236f5c.css.map",
-    "main.265dcc4d.js.map": "/analytic-portfolio/static/js/main.265dcc4d.js.map"
+    "main.ea31fee0.css.map": "/analytic-portfolio/static/css/main.ea31fee0.css.map",
+    "main.45a31569.js.map": "/analytic-portfolio/static/js/main.45a31569.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b236f5c.css",
-    "static/js/main.265dcc4d.js"
+    "static/css/main.ea31fee0.css",
+    "static/js/main.45a31569.js"
   ]
 }
