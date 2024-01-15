@@ -22,6 +22,8 @@
 .project_banner_container .project_img {
   width: 80%;
   height: 350px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 @media only screen and (max-width: 900px) {
