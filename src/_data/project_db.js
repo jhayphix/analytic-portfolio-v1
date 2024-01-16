@@ -14,10 +14,10 @@ const project_db = [
   },
   {
     id: 2,
-    name: "Covid 19",
+    name: "AirBnb",
     project_img: airbnbImg,
     category: "tableau",
-    type: "Client",
+    type: "Personal",
   },
   {
     id: 3,

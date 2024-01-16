@@ -4,9 +4,9 @@ import airbnbImg from "@assets/images/projects/tableau/jan_2024/tb_airbnb_12_01_
 // Excel data base
 const tableau_project_1 = {
   id: 2,
-  name: "Covid 19",
+  name: "AirBnb",
   category: "tableau",
-  type: "Client",
+  type: "Personal",
   project_img: airbnbImg,
   // dashboard_img: DefDashboardImg2,
 
