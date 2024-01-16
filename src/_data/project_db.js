@@ -1,6 +1,7 @@
 import DefDashboardImg1 from "@assets/images/projects/default_dashboard/dashboard_img_1.png";
 
 import BikeSalesImg from "@assets/images/projects/excel/ex_bike_sales_08_01_img.png";
+import airbnbImg from "@assets/images/projects/tableau/jan_2024/tb_airbnb_12_01_img.png";
 
 const project_db = [
   // 1 - 5
@@ -14,7 +15,7 @@ const project_db = [
   {
     id: 2,
     name: "Covid 19",
-    project_img: DefDashboardImg1,
+    project_img: airbnbImg,
     category: "tableau",
     type: "Client",
   },

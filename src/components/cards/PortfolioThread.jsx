@@ -16,6 +16,7 @@ import ProjectCard from "@components/cards/ProjectCard";
 */
 const PortfolioThread = () => {
   const { filteredProjects } = useContext(ProjectContext);
+  console.log(filteredProjects);
 
   /*
     |----------------------------------------

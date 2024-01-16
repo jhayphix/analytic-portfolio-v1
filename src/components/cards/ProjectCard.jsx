@@ -18,6 +18,7 @@ import DefDashboardImg1 from "@assets/images/projects/default_dashboard/dashboar
 */
 const ProjectCard = ({ project }) => {
   const { toDashboardHandler } = useContext(NavigationContext);
+  console.log(project);
   /*
     |----------------------------------------
     | Return
